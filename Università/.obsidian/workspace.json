@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "6a7f75c101e7d061",
+        "id": "3aa3f46984019ad6",
         "type": "tabs",
         "children": [
           {
-            "id": "9db2416df96646a2",
+            "id": "9986ec656aa9bfeb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Terzo anno/Machine Learning.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Machine Learning"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista grafo"
             }
           }
         ]
@@ -190,34 +186,39 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "obsidian-importer:Importa note": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-importer:Importa note": false
     }
   },
-  "active": "9db2416df96646a2",
+  "active": "9986ec656aa9bfeb",
   "lastOpenFiles": [
-    "Terzo anno/Fondamenti di analisi dati.md",
+    "Secondo anno/Reti di calcolatori/Reti di calcolatori.md",
+    "Secondo anno/Reti di calcolatori/Informazioni Utili Reti.md",
+    "Secondo anno/Reti di calcolatori/Link Utili Reti.md",
+    "Secondo anno/Reti di calcolatori/Teoria/4DLL.pdf",
+    "Secondo anno/Reti di calcolatori/Teoria/3Network_N.pdf",
+    "Secondo anno/Reti di calcolatori/Teoria/2Transport_N.pdf",
+    "Secondo anno/Reti di calcolatori/Teoria/1Applications_N.pdf",
+    "Secondo anno/Reti di calcolatori/Reti_di_calcolatori_e_Internet_Un_approccio_top_down_8th_J_F_Kurose.pdf",
+    "Secondo anno/Reti di calcolatori/Teoria",
+    "Secondo anno/Reti di calcolatori/slides_computer_networks_pub.pdf",
+    "Secondo anno/Reti di calcolatori/Lezioni_Laboratorio.c",
+    "Secondo anno/Reti di calcolatori/Link utili.txt",
+    "Secondo anno/Reti di calcolatori/Informazioni utili.txt",
+    "Secondo anno/Analisi II/Analisi II.md",
+    "Secondo anno/Secondo anno.md",
+    "Documenti importanti/Documenti importanti.md",
+    "Documenti importanti/App da attenzionare.md",
     "Terzo anno/Machine Learning.md",
-    "Primo anno/Architettura degli elaboratori/Teoria/0 Architettura.pdf",
+    "Terzo anno/Terzo anno.md",
+    "Terzo anno/Fondamenti di analisi dati.md",
     "Hub.md",
-    "Primo anno/Architettura degli elaboratori/Teoria/1 Memoria.pdf",
-    "Primo anno/Architettura degli elaboratori/Teoria/01 Evoluzione-delle-Architetture-degli-Elaboratori.pdf",
-    "Primo anno/Architettura degli elaboratori/Assembly/2.0-IstruzioniMacchina/2.0-IstruzioniMacchina.pdf",
     "Secondo anno/Sistemi operativi/Sistemi Operativi.md",
     "Secondo anno/Sistemi operativi/Esame1parte2.jpeg",
     "Secondo anno/Sistemi operativi/Esame1parte1.jpeg",
     "Secondo anno/Sistemi operativi/WhatsApp Image 2026-07-14 at 19.23.00.jpeg",
     "Secondo anno/Sistemi operativi/WhatsApp Image 2026-07-14 at 19.22.00.jpeg",
-    "Documenti importanti/Documenti importanti.md",
     "Documenti importanti/Materie terzo anno.md",
-    "Documenti importanti/Materie terzo anno.txt",
-    "Documenti importanti",
-    "Secondo anno/Secondo anno.md",
     "Secondo anno/Sistemi Operativi.md",
-    "Secondo anno/Sistemi operativi/80951b61-e3be-4037-8129-db35de93d629_Sistemi_operativi.pdf",
-    "Secondo anno/Sistemi operativi",
-    "Secondo anno/Sistemi Operativi",
-    "Secondo anno/Nuova cartella",
     "Senza nome.canvas",
     "Primo anno/Architettura degli elaboratori/Architettura degli elaboratori.md",
     "Secondo anno/Algoritmi/Algoritmi.md",
@@ -225,7 +226,6 @@
     "Primo anno/Analisi I/Simulazioni/Esame7.jpg",
     "Primo anno/Algebra lineare/Algebra lineare.md",
     "Primo anno/Primo anno.md",
-    "Terzo anno/Terzo anno.md",
     "crea un collegamento.md",
     "2026-10-06.md",
     "Fondamenti.canvas"

@@ -1,0 +1,14 @@
+Teoria:
+	[[Capitolo_equazioni_differenziali_2526.pdf]]
+	[[Capitolo_funzioni_2526.pdf]]
+	[[Capitolo_integrali_2526.pdf]]
+	[[Capitolo_serie_2526.pdf]]
+Esercizi:
+	[[appello_EAM2_18_febbraio_26.pdf]]
+	[[esercizi_integrali.pdf]]
+	[[esercizi_sugli_integrali_2_.pdf]]
+	[[esercizi_sugli_integrali_definiti.pdf]]
+	[[Esercizi_sulle_equazioni_differenziali.pdf]]
+	[[esercizi_sulle_funzioni.pdf]]
+	[[Esercizi_sulle_serie.pdf]]
+	[[simulazionePI_2526.pdf]]
