@@ -11,10 +11,14 @@
             "id": "9986ec656aa9bfeb",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista grafo"
+              "type": "markdown",
+              "state": {
+                "file": "Documenti importanti/Documenti importanti.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Documenti importanti"
             }
           }
         ]
