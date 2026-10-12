@@ -1,3 +1,9 @@
+Python Tutorial:
+	[[lab_02_python_crash_course.pdf]]
+	[[lab_03_python_for_data_science.pdf]]
+Teoria:
+	[[01_key_concepts.pdf]]
+	[[02_describing_visualizing.pdf]]
 ## 06/10/2026
 
 Dati= Sono una collezione di valori ottenuti rispetto a determinate variabili che descrivono un determinato fenomeno  
