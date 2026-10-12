@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "354e3b04291a88cd",
+        "id": "8d1805a60c9a62f8",
         "type": "tabs",
         "children": [
           {
-            "id": "156d419d2a0b9769",
+            "id": "6c4657aa17f972f9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Terzo anno/Machine Learning.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nuova scheda"
+              "title": "Machine Learning"
             }
           }
         ]
@@ -189,8 +193,14 @@
       "obsidian-importer:Importa note": false
     }
   },
-  "active": "156d419d2a0b9769",
+  "active": "3e171c982ea4c39f",
   "lastOpenFiles": [
+    "Documenti importanti/App da attenzionare.md",
+    "Terzo anno/Machine Learning.md",
+    "Primo anno/Analisi I/Teoria/AppuntiCap1.pdf",
+    "Primo anno/Analisi I/Teoria/Appunticap2.pdf",
+    "Primo anno/Analisi I/Teoria/Appunticap3.pdf",
+    "Primo anno/Analisi I/Teoria/AppuntiCap4.pdf",
     "Documenti importanti/Documenti importanti.md",
     "Secondo anno/Secondo anno.md",
     "Secondo anno/Ingegneria del software/Ingegneria del software.md",
@@ -200,17 +210,11 @@
     "Secondo anno/Ingegneria del software/Teoria/L2_Test.pdf",
     "Secondo anno/Ingegneria del software/Teoria/L1_Introduzione.pdf",
     "Secondo anno/Ingegneria del software/Teoria",
-    "Secondo anno/Ingegneria del software",
     "Secondo anno/Reti di calcolatori/Reti di calcolatori.md",
-    "Terzo anno/Machine Learning.md",
     "Terzo anno/Terzo anno.md",
     "Secondo anno/Reti di calcolatori/Informazioni Utili Reti.md",
     "Secondo anno/Reti di calcolatori/Link Utili Reti.md",
-    "Secondo anno/Reti di calcolatori/Teoria/4DLL.pdf",
-    "Secondo anno/Reti di calcolatori/Teoria/3Network_N.pdf",
-    "Secondo anno/Reti di calcolatori/Teoria/2Transport_N.pdf",
     "Secondo anno/Analisi II/Analisi II.md",
-    "Documenti importanti/App da attenzionare.md",
     "Terzo anno/Fondamenti di analisi dati.md",
     "Hub.md",
     "Secondo anno/Sistemi operativi/Sistemi Operativi.md",
