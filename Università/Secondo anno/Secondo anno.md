@@ -1,3 +1,5 @@
 [[Algoritmi]]
 [[Sistemi Operativi]]
 [[Analisi II]]
+[[Reti di calcolatori]]
+[[Ingegneria del software]]
