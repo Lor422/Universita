@@ -43,3 +43,39 @@ P_I: Performance per l'inferenza
 Servono entrambi
 
 Una singola istanza di un dato in input è un #campione , solitamente dei vettori monodimensionali che racchiudono tutte le qualità dell'istanza (Possono essere anche multi-dimensionali). Questo vettore lo possiamo chiamare anche #vettore_di_feature 
+
+Design Matrix, in cui vado a registrare le feature ed i campioni corrispondenti oppure i risultati
+
+Possono esserci diversi tipi di apprendimento
+
+#Apprendimento_supervisionato: l'algoritmo ha a disposizione sia i dati di input che le etichette di output. Algoritmi di classificazione o di regressione, per risolvere problemi classici.
+Classificazione=Etichette, spam/non spam ad esempio
+Regressione=Stabilire prezzo di una casa a partire dai metri quadri, un set di risposte "reali" nel senso matematico, un set non definito ma che dipende molto dall'input dato.
+
+#Apprendimento_non_supervisionato: L'algoritmo ha a disposizione solamente i dati in input.
+Si pretende che l'algoritmo sia in gradi di carpire la struttura dei dati.
+Ad esempio, voglio regalare magliette ad una grande mole di clienti di cui so altezza e peso. Grafico i dati input, e in base a questi dati riesco a capire la distribuzione, la "struttura", e quindi come distribuire per bene questi dati e quante sono le magliette da stampare. Questo è un problema di Clustering
+
+
+Le feature possono essere:
+	Categoriche, che a loro volta si dividono in:
+		Ordinali: Abbiamo ordine nelle categorie (Basse, media e alta temperatura)
+		Non ordinali: Non abbiamo ordine nelle categorie (Colori)
+	Continue
+
+#Apprendimento_rinforzativo (reinforced learning):
+Osserviamo il mondo e vogliamo apprendere una policy ben specifica. Genero tanti episodi e ad ogni episodio assegno una ricompensa, negativa o positiva. Pesano di più quelle positive rispetto a quelle negative
+
+
+#Accuracy: lo usiamo per allenare, e anche per valutare. Si cerca l'algoritmo con l'accuracy migliore
+
+I modelli oltre ai parametri possono avere #iperparametri , qualcosa che inserisco a mano io, anche cambiare modello potrebbe essere un iperparametro
+
+3 tipi di set di dati:
+	Train (Per allenare)
+	Test (Per testare) (L'unione fra test e Train deve essere la totalità dei dati, l'intersezione deve essere vuota)
+	Valid (Per validare quale modello sia migliore, dati diversi dai precedenti)
+
+Come fare split dei dati:
+	Li separiamo in maniera randomica, cercando però di mantenere un certo rapporto fra le caratteristiche simile a quello che ci interessa.
+	Random fino ad un certo punto, devo comunque essere in grado di fare un confronto

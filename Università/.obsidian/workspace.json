@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terzo anno/Machine Learning.md",
+                "file": "Terzo anno/Terzo anno.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Machine Learning"
+              "title": "Terzo anno"
             }
           }
         ]
@@ -193,10 +193,12 @@
       "obsidian-importer:Importa note": false
     }
   },
-  "active": "3e171c982ea4c39f",
+  "active": "6c4657aa17f972f9",
   "lastOpenFiles": [
-    "Documenti importanti/App da attenzionare.md",
     "Terzo anno/Machine Learning.md",
+    "Terzo anno/Terzo anno.md",
+    "Terzo anno/Fondamenti di analisi dati.md",
+    "Documenti importanti/App da attenzionare.md",
     "Primo anno/Analisi I/Teoria/AppuntiCap1.pdf",
     "Primo anno/Analisi I/Teoria/Appunticap2.pdf",
     "Primo anno/Analisi I/Teoria/Appunticap3.pdf",
@@ -211,11 +213,9 @@
     "Secondo anno/Ingegneria del software/Teoria/L1_Introduzione.pdf",
     "Secondo anno/Ingegneria del software/Teoria",
     "Secondo anno/Reti di calcolatori/Reti di calcolatori.md",
-    "Terzo anno/Terzo anno.md",
     "Secondo anno/Reti di calcolatori/Informazioni Utili Reti.md",
     "Secondo anno/Reti di calcolatori/Link Utili Reti.md",
     "Secondo anno/Analisi II/Analisi II.md",
-    "Terzo anno/Fondamenti di analisi dati.md",
     "Hub.md",
     "Secondo anno/Sistemi operativi/Sistemi Operativi.md",
     "Secondo anno/Sistemi operativi/Esame1parte2.jpeg",

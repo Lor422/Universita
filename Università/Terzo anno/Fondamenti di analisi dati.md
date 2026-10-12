@@ -38,3 +38,7 @@ Matrice sparsa: normalmente le matrici sono rappresentate in modo denso, se per√
 Data frame=design matrix
 
 Data Wrangling: tecniche per trasformare i dati e usarli in analisi pi√π complesse
+
+## 08/10/2026
+
+Lezione 3 sul sito
