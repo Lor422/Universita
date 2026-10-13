@@ -1,9 +1,12 @@
+Link sito Furnari:
+	https://antoninofurnari.github.io/fad-2627/
 Python Tutorial:
 	[[lab_02_python_crash_course.pdf]]
 	[[lab_03_python_for_data_science.pdf]]
 Teoria:
 	[[01_key_concepts.pdf]]
 	[[02_describing_visualizing.pdf]]
+	[[03_probability.pdf]]
 ## 06/10/2026
 
 Dati= Sono una collezione di valori ottenuti rispetto a determinate variabili che descrivono un determinato fenomeno  
@@ -48,3 +51,55 @@ Data Wrangling: tecniche per trasformare i dati e usarli in analisi più comples
 ## 08/10/2026
 
 Lezione 3 sul sito
+
+## 13/10/2026
+
+Quali valori le variabili assumeranno?
+Questa è la domanda che ci interessa 
+I sistemi possono essere:
+	Deterministici: Prevedibilità perfetta dei dati
+	Incerti o Stocastici: Non è facile predirre con certezza i risultati, richiede ragionamenti statistici e probabilistici
+
+Le fonti della mancanza di certezza sono svariate:
+Principalmente è la casualità intrinseca in tutto ciò che esiste, poi c'è anche
+l'osservabilità incompleta, cioè la mancanza di informazioni, e la mancanza di un modello accurato che riassume per bene il problema alla mano (Robot con telecamera RGB)
+
+La teoria delle probabilità ci permette di:
+Quantificare eventi
+derivare delle regole formali
+combinare informazioni
+e fare predizioni
+
+Esperimento casuale: Un esperimento che può essere ripetuto più volte e che potenzialmente da risultati diversi
+
+Spazio campionario: L'insieme di tutti i possibili risultati
+Evento semplice: Un singolo dei possibili risultati dell'esperimento
+Evento A sottoinsieme o coincidente allo spazio campionario(evento composto): Un sottoinsieme dello spazio campionario
+
+variabile random: Una funzione definita nello spazio campionario che ha valori in E, dove E è uno spazio misurabile
+
+Dati: Valori assunti dalle variabili random
+
+La notazione della probabilità è un numero compreso fra 0 e 1
+
+Probabilità di Laplace: Se in un esperimento casuale tutti i risultati possibili sono ugualmente probabili, è chiamato esperimento di Laplace
+
+Le probabilità si possono stimare anche dalle osservazioni
+Approccio frequentista: Numero di volte volte con outcome favorevole/i tentativi che ho visto
+
+Approccio Bayesano alla probabilità:
+Incorpora conoscenze esterne all'esperimento
+
+Frequenze relative normalizzate: Probabilità
+
+Posso calcolare una probabilità congiunta fra più variabili
+P(x,y)
+Le probabilità congiunte sono simmetriche, e x ed y sono considerati come eventi che avvengono in contemporanea
+
+Si fa una tabella di contingenza per calcolare le probabilità congiunte
+Casi favorevoli/tutti i casi possibili
+
+Probabilità marginali, derivabili facilmente dalla tabella di contingenza
+
+Regola della somma: Mi permette di derivare delle probabilità marginali a partire dalle probabilità congiunte
+
