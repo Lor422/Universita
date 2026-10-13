@@ -15,7 +15,8 @@
               "state": {
                 "file": "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "Fondamenti di analisi dati"
@@ -83,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.3000183105469,
-    "collapsed": true
+    "width": 362.3000183105469
   },
   "right": {
     "id": "13a777c110ecdf37",

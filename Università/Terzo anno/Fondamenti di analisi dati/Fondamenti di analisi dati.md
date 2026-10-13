@@ -103,3 +103,24 @@ Probabilità marginali, derivabili facilmente dalla tabella di contingenza
 
 Regola della somma: Mi permette di derivare delle probabilità marginali a partire dalle probabilità congiunte
 
+Probabilità condizionale o condizionata: La probabilità che accade un evento dando per scontato che un altro evento sia avvenuto
+
+Regola del prodotto: la probabilità condizionale può essere riscritta anche come moltiplicazione
+
+Regola della catena per la probabilità condizionata: La probabilità congiunta è uguale al prodotto della probabilità marginale e condizionale
+
+Teorema di Bayes: Aggiorna la probabilità di un evento basandosi su nuove prove
+
+P(A|B): Probabilità a posteriori, probabilità di A in base a B 
+P(B|A): Verosimiglianza, probabilità di osservare B se A è vero
+P(A): Probabilità a priori
+P(B): Evidenza
+
+P(fever/covid)=Probabilità che chi abbia il covid abbia la febbre
+
+Due variabili sono indipendenti se la conoscenza di una delle due non influenza in alcun modo l'altra
+
+Modi di definire indipendenza:
+	Probabilità condizionale: P(X=x|Y=y)=P(X=x)
+	Probabilità congiunta: P(X=x,Y=y)=P(X=x)*P(Y=y)
+ 
