@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
+                "file": "Secondo anno/Algoritmi/Algoritmi.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Fondamenti di analisi dati"
+              "title": "Algoritmi"
             }
           }
         ]
@@ -190,14 +190,13 @@
       "bases:Crea nuova Base": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
-      "obsidian-importer:Importa note": false
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
   "active": "6c4657aa17f972f9",
   "lastOpenFiles": [
-    "Documenti importanti/App da attenzionare.md",
     "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
+    "Documenti importanti/App da attenzionare.md",
     "Terzo anno/Fondamenti di analisi dati/Teoria/03_probability.pdf",
     "Terzo anno/Fondamenti di analisi dati/Teoria/01_key_concepts.pdf",
     "Terzo anno/Terzo anno.md",

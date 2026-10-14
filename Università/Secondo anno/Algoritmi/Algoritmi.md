@@ -4,3 +4,5 @@ Teoria:
 Esercizi:
 	[[Dispensa_Esercizi_Ricorsione_2026.pdf]]
 	[[Ottimizzazione con la ricorsione.pdf]]
+	[[Notazioni Asintotiche.pdf]]
+	[[Risoluzione delle Equazioni di Ricorrenza.pdf]]
