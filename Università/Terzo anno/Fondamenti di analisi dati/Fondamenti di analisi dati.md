@@ -141,13 +141,13 @@ Correlazione non significa necessariamente causazione, cioè rapporto di causa-e
 
 Correlazione spuria: non c'è realmente un rapporto di causa-effetto nonostante sembra ci sia un collegamento fra le cose
 
-P(X=xi​,Y=yj​)=P(X=xi​)P(Y=yj​)
+$P(X=x_i​,Y=y_j​)=P(X=x_i​)P(Y=y_j​$)
 
 Le frequenza attese possono essere ricostruite dai valori marginali se le variabili sono indipendenti, l'essere indipendenti assicura di poter fare i calcoli in modo analitico
 
 Segnamo il risultato di queste ricostruzioni con delle tilde, e confrontiamo con i risultati veri per vedere se la nostra "dimostrazione per assurdo" è vera, cioè se le variabili sono veramente indipendenti. Lo sono nel caso n e N~ sono veramente simili
 
-Statistica di Person T^2
+Statistica di Person $T^2$
 (Simile al Mean Square Error di interazione e multimedia)
 
 Serve a vedere, normalizzando per il numero stimato, quanto sono dipendenti le variabili. Se il valore è molto alto significa che lo sono, se è vicino a 0 significa le variabili sono abbastanza indipendenti
@@ -173,4 +173,41 @@ Utile soprattutto se i dati sono davvero tanti, aiuta molto a visualizzarli per 
 Rappresentazione simile quella per densità (Density e contour plot)![[Pasted image 20261015161921.png]]
 
 Covarianza: Variabile che determina precisamente quanto sono distribuite similarmente intorno alla loro media
+
+Ci chiediamo quanti i dati variano insieme sostanzialmente
+
+Se la formula della covarianza risulta:
+	Positiva: gli elementi sono concordanti, entrambi sopra o sotto la loro media
+	Negativa: gli elementi sono discordanti, uno sopra la sua media e l'altro sotto
+	Zero o vicino a zero: gli elementi sono vicino alla loro media
+
+La covarianza si può usare anche in modo "unbiased", usiamo $\frac{1}{n-1}$ per la correzione anziché $n$
+
+La covarianza però non ha un range, e per risolvere si usa il coefficiente di correlazione di Pearson che cerca di provvedere una normalizzazione, che si ottiene dicidendo per la deviazione standard di entrambe le variabili
+
+La covarianza può essere "falsificata" facilmente moltiplicandola per $\alpha^2$
+
+Come si legge la correlazione di perason?
+
+0-0.3 Correlazione debole
+0.7-1 correlazione forte
+Numero negativo significa "Anticorrelazione"
+
+Pearson non misura come si orienta la retta
+Dice sostanzialmente solo quanto è forte la relazione lineare
+
+Coefficiente di Spearman, correlazione per Rango
+Si utilizza quando la relazione non è lineare
+
+Trasforma ogni punto del grafico in ranghi, e inserisce i dati in base a quelli piuttosto che i numeri effettivi e poi li confronta su questa nuova base
+
+Indice ci correlazione di Kendall, considera il livello di associazione delle variabili considerando il rango
+
+Matrice di correlazione, spesso associata ad una mappa di calore, contiene tutti i possibili coefficienti di correlazione e infatti si può calcolare con uno qualsiasi dei precedenti coefficienti
+
+La covarianza è una relazione binaria *simmetrica*
+
+Ci sono note sul rischio relativo sul sito, Lecture 5
+
+## 20/10/2026
 
