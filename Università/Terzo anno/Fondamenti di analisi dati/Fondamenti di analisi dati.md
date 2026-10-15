@@ -123,4 +123,54 @@ Due variabili sono indipendenti se la conoscenza di una delle due non influenza 
 Modi di definire indipendenza:
 	Probabilità condizionale: P(X=x|Y=y)=P(X=x)
 	Probabilità congiunta: P(X=x,Y=y)=P(X=x)*P(Y=y)
- 
+
+## 15/10/2026
+
+Associazioni fra variabili
+
+L'analisi multivariata si pone il problema di come mettere in relazione le varie variabili fra di loro
+"Questa variabile mi dice qualcosa sull'altra o sono indipendenti?"
+Quindi capire se c'è una #correlazione
+
+Due variabili sono associate se osservare i valori di una ci dice qualcosa sui valori dell'altra
+
+Se P(x,y)=!P(x) * P(y), allora c'è un'associazione
+
+CORRELATION IS NOT CAUSATION
+Correlazione non significa necessariamente causazione, cioè rapporto di causa-effetto 
+
+Correlazione spuria: non c'è realmente un rapporto di causa-effetto nonostante sembra ci sia un collegamento fra le cose
+
+P(X=xi​,Y=yj​)=P(X=xi​)P(Y=yj​)
+
+Le frequenza attese possono essere ricostruite dai valori marginali se le variabili sono indipendenti, l'essere indipendenti assicura di poter fare i calcoli in modo analitico
+
+Segnamo il risultato di queste ricostruzioni con delle tilde, e confrontiamo con i risultati veri per vedere se la nostra "dimostrazione per assurdo" è vera, cioè se le variabili sono veramente indipendenti. Lo sono nel caso n e N~ sono veramente simili
+
+Statistica di Person T^2
+(Simile al Mean Square Error di interazione e multimedia)
+
+Serve a vedere, normalizzando per il numero stimato, quanto sono dipendenti le variabili. Se il valore è molto alto significa che lo sono, se è vicino a 0 significa le variabili sono abbastanza indipendenti
+
+Statistica di Cramér
+La statistica di Person normalizzata al contrario, cioè 1 significa che le variabili sono indipendenti e 0 sono dipendenti (Simile a PSNR sempre di interazione e multimedia)
+
+Un valore di circa 30% uscente da Cramér, significa che l'associazione è debole per convenzione
+
+Adesso parliamo di associazione fra variabili continue (Prima si parlava di variabili discrete)
+
+Scatterplot, tabella in cui si prendono 2 variabili e si considerano come coordinate su un piano cartesiano, utile per vedere se c'è una correlazione positiva, negativa, lineare o non-lineare fra le due variabili
+
+Se i dati sono VERAMENTE non correlati, in questo grafico i dati sembrano una nube.
+Una linea retta orizzontale o verticale significa solo che non c'è una correlazione apparente, ma potrebbe comunque esserci
+
+La matrice di scatter è molto utile per visualizzare tutti i possibili grafici di correlazione delle variabili, e si possono pure ordinare i dati in base alla loro appartenenza a particolari gruppi nel caso ci siano
+
+Un'altra rappresentazione utilizzata spesso sono gli istogrammi 2D (Hexbin Plots), quindi una sorta di istogramma con 3 variabili.
+Si può fare dividendo l'istogramma in celle e organizzandolo con dei colori che indicano per bene i valori possibili![[Pasted image 20261015161706.png]]
+
+Utile soprattutto se i dati sono davvero tanti, aiuta molto a visualizzarli per bene.
+Rappresentazione simile quella per densità (Density e contour plot)![[Pasted image 20261015161921.png]]
+
+Covarianza: Variabile che determina precisamente quanto sono distribuite similarmente intorno alla loro media
+
