@@ -1,5 +1,7 @@
 Libro:
 	[[Introduction_to_Machine_Learning_Fourth_Edition_Ethem_Alpaydin_z.pdf]]
+Slides:
+	[[Machine Learning.pdf]]
 ## 05/10/2026
 
 18 lezioni, 9 teoria 9 lab, c’è un esame e un progetto da fare
@@ -115,4 +117,7 @@ Ci sono vari casi:
 	Multiple Regression:  $$\inline F:R^n-> R$$
 Nel primo caso, ci permette di avere un'idea di come allenare l'ai
 
-Discesa del gradiente
+Discesa del gradiente (Bello probabilmente, bho)
+
+ALL IN HIS MIND?
+
