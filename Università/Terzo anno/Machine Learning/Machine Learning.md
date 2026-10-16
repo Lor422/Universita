@@ -1,8 +1,12 @@
+Libro:
+	[[Introduction_to_Machine_Learning_Fourth_Edition_Ethem_Alpaydin_z.pdf]]
 ## 05/10/2026
 
 18 lezioni, 9 teoria 9 lab, c’è un esame e un progetto da fare
 
 Lab prende le presenze che danno punti
+
+
 
 2 prove in itinere, 18 dicembre 2026 e 11 gennaio 2027
 
@@ -79,3 +83,36 @@ I modelli oltre ai parametri possono avere #iperparametri , qualcosa che inseris
 Come fare split dei dati:
 	Li separiamo in maniera randomica, cercando però di mantenere un certo rapporto fra le caratteristiche simile a quello che ci interessa.
 	Random fino ad un certo punto, devo comunque essere in grado di fare un confronto
+
+## 16/10/2026 (Vedi slide e fai prima)
+
+In genere le reti neurali sono un'aggregazione di neuroni (Negli umani sono collegati ai cinque sensi), sono dei semplici propagatori di segnale.
+
+I primi studi di machine learning cercavano di imitare il funzionamento del neurone
+
+Gli input del modello sono binari , e cosi andiamo a ricreare sostanzialmente delle porte logiche
+I limiti di questo modello sono:
+	Input binari
+	I parametri sono fissati man mano da noi
+	Lavora con uno spazio limitato
+
+Successivamente si passa ad un modello chiamato Percettrone
+Caratteristiche:
+	Input binario, e possono essere n dati
+	Classifica l'input con due etichette
+	Possiede parametri
+	Basato sulla seguente funzione:
+	$$hw(x_{i}\dots x_{n} = [\Sigma_{i =1 }^n w_{i}x_{i}\ge w_{0}])$$
+
+Graficamente la retta che separa due etichette è chiamata Decision boundary
+Non è possibile rappresentare lo XOR con questo modello
+
+Regressione
+È una funzione parametrizzata
+
+Ci sono vari casi:
+	Single Regression: F: R->R (Stimare dai metri quadri il prezzo di una casa ad esempio)
+	Multiple Regression:  $$\inline F:R^n-> R$$
+Nel primo caso, ci permette di avere un'idea di come allenare l'ai
+
+Discesa del gradiente
