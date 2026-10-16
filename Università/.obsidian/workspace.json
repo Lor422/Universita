@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.3000183105469,
-    "collapsed": true
+    "width": 362.3000183105469
   },
   "right": {
     "id": "13a777c110ecdf37",
@@ -170,14 +169,23 @@
               "icon": "lucide-list",
               "title": "Struttura"
             }
+          },
+          {
+            "id": "6741813ec72f4113",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,7 +198,8 @@
       "bases:Crea nuova Base": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "885aa4f41f2f345b",
