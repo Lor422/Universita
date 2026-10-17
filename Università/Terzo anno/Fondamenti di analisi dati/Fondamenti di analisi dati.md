@@ -167,10 +167,10 @@ Una linea retta orizzontale o verticale significa solo che non c'è una correlaz
 La matrice di scatter è molto utile per visualizzare tutti i possibili grafici di correlazione delle variabili, e si possono pure ordinare i dati in base alla loro appartenenza a particolari gruppi nel caso ci siano
 
 Un'altra rappresentazione utilizzata spesso sono gli istogrammi 2D (Hexbin Plots), quindi una sorta di istogramma con 3 variabili.
-Si può fare dividendo l'istogramma in celle e organizzandolo con dei colori che indicano per bene i valori possibili![[Pasted image 20261015161706.png]]
+Si può fare dividendo l'istogramma in celle e organizzandolo con dei colori che indicano per bene i valori possibili![[Screenshot 2026-10-15 161615.png]]
 
 Utile soprattutto se i dati sono davvero tanti, aiuta molto a visualizzarli per bene.
-Rappresentazione simile quella per densità (Density e contour plot)![[Pasted image 20261015161921.png]]
+Rappresentazione simile quella per densità (Density e contour plot)![[Screenshot 2026-10-15 161905.png]]
 
 Covarianza: Variabile che determina precisamente quanto sono distribuite similarmente intorno alla loro media
 

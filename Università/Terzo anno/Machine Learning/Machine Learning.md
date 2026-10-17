@@ -92,31 +92,56 @@ In genere le reti neurali sono un'aggregazione di neuroni (Negli umani sono coll
 
 I primi studi di machine learning cercavano di imitare il funzionamento del neurone
 
-Gli input del modello sono binari , e cosi andiamo a ricreare sostanzialmente delle porte logiche
+Gli input del modello sono binari , e possiamo ricreare sostanzialmente delle porte logiche AND e OR
 I limiti di questo modello sono:
 	Input binari
-	I parametri sono fissati man mano da noi
-	Lavora con uno spazio limitato
+	Gli input hanno tutti lo stesso peso
+	I parametri sono fissati man mano da noi (Quindi il training non è automatico)
+	Tutte le funzioni computabili sono linearmente separabili
 
 Successivamente si passa ad un modello chiamato Percettrone
 Caratteristiche:
-	Input binario, e possono essere n dati
 	Classifica l'input con due etichette
-	Possiede parametri
-	Basato sulla seguente funzione:
-	$$hw(x_{i}\dots x_{n} = [\Sigma_{i =1 }^n w_{i}x_{i}\ge w_{0}])$$
+	C'è un metodo automatico di apprendimento che stabilisce i pesi dell'input in maniera opportuna
 
-Graficamente la retta che separa due etichette è chiamata Decision boundary
+Il comportamento del percettrone è basato sulla seguente funzione:
+	$$
+	f(x_{i}\dots x_{n}) =
+	\begin{cases}
+	1\text{ se }[\sum_{j = 0 }^{d} w_{j}x_{j}\ge w_{0}]\\
+	0 \text{ altrimenti}
+	\end{cases}
+	$$
+Dove $x_j$ sono gli input e $w_j$ i pesi
+
+Il processo generale del percettrone si divide in 4 passi:
+	1. Inizializzazione casuale dei pesi $w_1,\dots,w_d\in\mathbb{R}$
+	2. Computa $\forall{x^\text{(i)}}$ il valore di $\hat{y}^\text{(i)}$
+	3. Confronta $\hat{y}^\text{(i)}$ con $y^\text{(i)}$
+		Se sono uguali non fa nulla, altrimenti aggiorna i pesi
+	4.Aggiorna i pesi
+
+![[Screenshot 2026-10-17 185633.png]]
+Questo aggiornamento dei pesi porta man mano a convergere ad un risultato opportuno per il dataset
+
+Formula matematica per l'aggiornamento dei pesi:
+$$
+\hat{w}_j \leftarrow w_j +\alpha(y^\text{(i)}-\hat{y}^\text{(i)})x_j 
+$$
+
+Dove $\hat{w}_j$ è il nuovo peso. Sostanzialmente aggiustiamo il peso calcolando la distanza fra l'output e l'output normalizzato, per trovare una risposta più vicina a quella corretta
+Il parametro $\alpha$ è detto Learning Rate, e se scelto in maniera opportuna può migliorare l'apprendimento e la convergenza
+
 Non è possibile rappresentare lo XOR con questo modello
 
 Regressione
-È una funzione parametrizzata
+Definiamo la regressione come un algoritmo che elabora un esempio in input e produce un valore o un vettore reale di output
+È in grado quindi di stabilire relazione fra i dati, individuare trend e fare predizioni
 
-Ci sono vari casi:
-	Single Regression: F: R->R (Stimare dai metri quadri il prezzo di una casa ad esempio)
-	Multiple Regression:  $$\inline F:R^n-> R$$
+
+
+Ci sono vari tipi:
+	Single Regression: $\text F: R \rightarrow R$ (Stimare dai metri quadri il prezzo di una casa ad esempio)
+	Multiple Regression:  $\text F:R^n\rightarrow R$
+	Multivariate regression: $\text F:R^n\rightarrow R^{n_1}$
 Nel primo caso, ci permette di avere un'idea di come allenare l'ai
-
-Discesa del gradiente (Bello probabilmente, bho)
-
-ALL IN HIS MIND?
