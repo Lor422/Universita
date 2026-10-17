@@ -86,7 +86,7 @@ Come fare split dei dati:
 	Li separiamo in maniera randomica, cercando però di mantenere un certo rapporto fra le caratteristiche simile a quello che ci interessa.
 	Random fino ad un certo punto, devo comunque essere in grado di fare un confronto
 
-## 16/10/2026 (Vedi slide e fai prima)
+## 16/10/2026 (Vedi slide dalle 19 alla 32)
 
 In genere le reti neurali sono un'aggregazione di neuroni (Negli umani sono collegati ai cinque sensi), sono dei semplici propagatori di segnale.
 
