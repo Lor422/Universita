@@ -120,5 +120,3 @@ Nel primo caso, ci permette di avere un'idea di come allenare l'ai
 Discesa del gradiente (Bello probabilmente, bho)
 
 ALL IN HIS MIND?
-
-555
