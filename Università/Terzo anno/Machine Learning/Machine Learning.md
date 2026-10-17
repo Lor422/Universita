@@ -121,3 +121,4 @@ Discesa del gradiente (Bello probabilmente, bho)
 
 ALL IN HIS MIND?
 
+555
