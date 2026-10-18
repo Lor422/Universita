@@ -7,6 +7,7 @@ Teoria:
 	[[01_key_concepts.pdf]]
 	[[02_describing_visualizing.pdf]]
 	[[03_probability.pdf]]
+	[[04_association.pdf]]
 ## 06/10/2026
 
 Dati= Sono una collezione di valori ottenuti rispetto a determinate variabili che descrivono un determinato fenomeno  

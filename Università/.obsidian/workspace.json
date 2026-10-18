@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "80a5060681c00f3f",
+        "id": "8e51e04afe1adcd6",
         "type": "tabs",
         "children": [
           {
-            "id": "3bcf16f71946f438",
+            "id": "994bf2c75da857c3",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -198,10 +198,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3bcf16f71946f438",
+  "active": "994bf2c75da857c3",
   "lastOpenFiles": [
     "Terzo anno/Machine Learning/Machine Learning.md",
     "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
+    "Terzo anno/Fondamenti di analisi dati/Teoria/04_association.pdf",
     "Terzo anno/Machine Learning/Screenshot 2026-10-17 185633.png",
     "Terzo anno/Machine Learning/Machine Learning.pdf",
     "Terzo anno/Fondamenti di analisi dati/Screenshot 2026-10-15 161905.png",
@@ -223,7 +224,6 @@
     "Secondo anno/Analisi II/Teoria/Capitolo_integrali_2526.pdf",
     "Secondo anno/Analisi II/Analisi II.md",
     "Secondo anno/Analisi II/Teoria/Capitolo_equazioni_differenziali_2526.pdf",
-    "Secondo anno/Analisi II/Teoria/Capitolo_funzioni_2526.pdf",
     "Secondo anno/Algoritmi/Algoritmi.md",
     "Terzo anno/Fondamenti di analisi dati.md",
     "Secondo anno/Secondo anno.md",
