@@ -93,7 +93,7 @@ Incorpora conoscenze esterne all'esperimento
 Frequenze relative normalizzate: Probabilità
 
 Posso calcolare una probabilità congiunta fra più variabili
-P(x,y)
+$P(x,y)$
 Le probabilità congiunte sono simmetriche, e x ed y sono considerati come eventi che avvengono in contemporanea
 
 Si fa una tabella di contingenza per calcolare le probabilità congiunte
@@ -111,18 +111,18 @@ Regola della catena per la probabilità condizionata: La probabilità congiunta 
 
 Teorema di Bayes: Aggiorna la probabilità di un evento basandosi su nuove prove
 
-P(A|B): Probabilità a posteriori, probabilità di A in base a B 
-P(B|A): Verosimiglianza, probabilità di osservare B se A è vero
-P(A): Probabilità a priori
-P(B): Evidenza
+$P(A|B)$: Probabilità a posteriori, probabilità di A in base a B 
+$P(B|A)$: Verosimiglianza, probabilità di osservare B se A è vero
+$P(A)$: Probabilità a priori
+$P(B)$: Evidenza
 
 P(fever/covid)=Probabilità che chi abbia il covid abbia la febbre
 
 Due variabili sono indipendenti se la conoscenza di una delle due non influenza in alcun modo l'altra
 
 Modi di definire indipendenza:
-	Probabilità condizionale: P(X=x|Y=y)=P(X=x)
-	Probabilità congiunta: P(X=x,Y=y)=P(X=x)*P(Y=y)
+	Probabilità condizionale: $P(X=x|Y=y)=P(X=x)$
+	Probabilità congiunta: $P(X=x,Y=y)=P(X=x)*P(Y=y)$
 
 ## 15/10/2026
 
@@ -134,7 +134,7 @@ Quindi capire se c'è una #correlazione
 
 Due variabili sono associate se osservare i valori di una ci dice qualcosa sui valori dell'altra
 
-Se P(x,y)=!P(x) * P(y), allora c'è un'associazione
+Se $P(x,y)\neq P(x) * P(y)$, allora c'è un'associazione
 
 CORRELATION IS NOT CAUSATION
 Correlazione non significa necessariamente causazione, cioè rapporto di causa-effetto 
