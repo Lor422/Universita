@@ -145,3 +145,4 @@ Ci sono vari tipi:
 	Multiple Regression:  $\text F:R^n\rightarrow R$
 	Multivariate regression: $\text F:R^n\rightarrow R^{n_1}$
 Nel primo caso, ci permette di avere un'idea di come allenare l'ai
+
