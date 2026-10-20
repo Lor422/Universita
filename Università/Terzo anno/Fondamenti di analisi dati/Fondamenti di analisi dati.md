@@ -225,7 +225,7 @@ $P:\Omega \rightarrow [0,1]$
 
 La PMF deve seguire la seguente proprietà:
 $$
-\sum_{x\in\Omega}{P(x)}=1
+\Large \sum_{x\in\Omega}{P(x)}=1
 $$
 
 Esempio di rappresentazione con una moneta non truccata:
@@ -234,13 +234,29 @@ Esempio di rappresentazione con una moneta non truccata:
 ECDF
 
 CDF: Cumulative Distribution of Discrete Variables
-
+La possiamo definire se la variabile è discreta e può essere ordinata
+Registra le probabilità cumulative di tutti i valori minori o uguali al valore dato
+$$
+\huge F(x)=P(X\leq x)=\sum_{y\leq x}P(y)
+$$
 Per le variabili continue il discorso è più complicato
 La PDF, Probability Density Functions, le definisco come integrale di una funzione f, che permette di mappare l'insieme "continuo" dei valori
-(Metti formula)
+La funzione è definita:
+$$
+\Large f:\Omega \rightarrow [0,1]
+$$
+E deve seguire la seguente proprietà:
+$$
+\Large\int f(x)dx=1
+$$
 
 In termini probabilistici parleremo comunque dei valori in termini discreti
 Infatti per l'integrazione si usa il metodo dei trapezi
+
+Possiamo definire il concetto di probabilità basato sulla densità come:
+$$
+\Large P(a\leq x \leq b)=\int_a^b f(x)dx
+$$
 
 Distribuzione uniforme: assegna la stessa probabilità a tutti i valori in un intervallo
 
@@ -257,13 +273,23 @@ Distribuzioni di probabilità comuni:
 Per lo più discrete
 
 Distribuzione Uniforme Discreta:
+$$
+\Large P(X=a_i)=\frac{1}{k}
+$$
 
 Distribuzione di Bernoulli:
 Distribuzione parametrica, una famiglia di funzione con dei parametri che definiti quelli, vado a definire lo scopo specifico
 Quella di bernulli è su una singola variabile binaria $\phi$
+$P(X=1)=\phi$
 
 Distribuzione Binomiale:
 Ha più parametri, risponde alla domanda "Qual è la probabilità di k successi in n tentativi indipendenti?"
+$$
+\Large P(k)=\binom{n}{k}p^k(1-p)^n-k
+$$
+k è il numero di successi
+n sono il numero di esperimenti indipendenti
+p è la probabilità di successo in un esperimento singolo
 
 Distribuzione categorica:
 Una generalizzazione di quella di Bernoulli
@@ -279,6 +305,9 @@ Distribuzione Gaussiana
 Dipende da due variabili:
 	La media
 	La varianza
+$$
+\huge N(x;\mu,\sigma^2)=\sqrt{\frac{1}{2\pi\sigma^2}}e^{-\frac{1}{2\sigma^2}(x-\mu)^2}
+$$
 
 Ho presa la distanza fra x ed m, e ho normalizzato per la varianza
 Primo pezzo della formula normalizza, il secondo la "abbassa" e "allarga" o viceversa, fa cioè in modo che l'integrale della funzione sia sempre uguale a 1 per mantenere giusto il concetto di probabilità
@@ -302,14 +331,14 @@ Ci sono delle formule per trovare i parametri migliori
 Matrice covarianza:
 
 $$
-\frac{1}{N-1}\sum_{i=1}^{N}(x_i-\hat\mu)(x_i-\hat\mu)^T
+\huge \frac{1}{N-1}\sum_{i=1}^{N}(x_i-\hat\mu)(x_i-\hat\mu)^T
 $$
 
 Il valore atteso: Il valore che mi aspetto che sia più frequente, una sorta di media
 
 Per variabili continue:
 $$
-E_{X\text{~}P}[X]=\int_{x\in\Omega}xf(x)dx
+\huge E_{X\text{~}P}[X]=\int_{x\in\Omega}xf(x)dx
 $$
 Teoria dell'informazione:
 Gli eventi rari potenzialmente sono più informativi, nel caso del tempo metereologico una temperatura anomala mai registrata prima implica qualche avvenimento degno di nota
