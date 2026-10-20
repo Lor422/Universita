@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "23b4accc180a3611",
+        "id": "bfe2eb48213648d6",
         "type": "tabs",
         "children": [
           {
-            "id": "a021f32422e4f225",
+            "id": "564e479cd66ede89",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Fondamenti di analisi dati"
+              "title": "Nuova scheda"
             }
           }
         ]
@@ -202,8 +198,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3e171c982ea4c39f",
+  "active": "6741813ec72f4113",
   "lastOpenFiles": [
+    "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
     "Screenshot",
     "Screenshot/Screenshot 2026-10-20 172737.png",
     "Screenshot/Screenshot 2026-10-20 155606.png",
@@ -212,7 +209,6 @@
     "Terzo anno/Fondamenti di analisi dati/Screenshot 2026-10-17 185633.png",
     "Terzo anno/Machine Learning/Terzo anno.lnk",
     "Terzo anno/Fondamenti di analisi dati/Teoria/lab_03_python_for_data_science.pdf",
-    "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
     "Terzo anno/Fondamenti di analisi dati/Teoria/lab_02_python_crash_course.pdf",
     "Terzo anno/Machine Learning/Machine Learning.md",
     "Terzo anno/Fondamenti di analisi dati/Teoria/04_association.pdf",
@@ -229,7 +225,6 @@
     "Terzo anno/Fondamenti di analisi dati/Pasted image 20261015161921.png",
     "Pasted image 20261015161706.png",
     "Primo anno/Analisi I/Teoria/AppuntiCap1.pdf",
-    "Documenti importanti/Tabella_Propedeuticità.pdf",
     "Documenti importanti/Materie terzo anno.md",
     "Documenti importanti/Documenti importanti.md",
     "Secondo anno/Analisi II/Analisi II.md",
