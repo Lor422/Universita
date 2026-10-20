@@ -1,4 +1,4 @@
-![[Screenshot 2026-10-20 172737.png]]Link sito Furnari:
+Link sito Furnari:
 	https://antoninofurnari.github.io/fad-2627/
 Python Tutorial:
 	[[lab_02_python_crash_course.pdf]]

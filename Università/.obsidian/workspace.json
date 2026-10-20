@@ -83,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.3000183105469,
-    "collapsed": true
+    "width": 362.3000183105469
   },
   "right": {
     "id": "13a777c110ecdf37",
@@ -203,12 +202,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a021f32422e4f225",
+  "active": "3e171c982ea4c39f",
   "lastOpenFiles": [
-    "Terzo anno/Fondamenti di analisi dati/Screenshot 2026-10-20 172737.png",
-    "Terzo anno/Fondamenti di analisi dati/Screenshot 2026-10-20 155606.png",
-    "Terzo anno/Fondamenti di analisi dati/Screenshot 2026-10-20 152802.png",
-    "Terzo anno/Machine Learning/Screenshot 2026-10-17 185633.png",
+    "Screenshot",
+    "Screenshot/Screenshot 2026-10-20 172737.png",
+    "Screenshot/Screenshot 2026-10-20 155606.png",
+    "Screenshot/Screenshot 2026-10-20 152802.png",
+    "Screenshot/Screenshot 2026-10-17 185633.png",
     "Terzo anno/Fondamenti di analisi dati/Screenshot 2026-10-17 185633.png",
     "Terzo anno/Machine Learning/Terzo anno.lnk",
     "Terzo anno/Fondamenti di analisi dati/Teoria/lab_03_python_for_data_science.pdf",
@@ -217,8 +217,8 @@
     "Terzo anno/Machine Learning/Machine Learning.md",
     "Terzo anno/Fondamenti di analisi dati/Teoria/04_association.pdf",
     "Terzo anno/Machine Learning/Machine Learning.pdf",
-    "Terzo anno/Fondamenti di analisi dati/Screenshot 2026-10-15 161905.png",
-    "Terzo anno/Fondamenti di analisi dati/Screenshot 2026-10-15 161615.png",
+    "Screenshot/Screenshot 2026-10-15 161905.png",
+    "Screenshot/Screenshot 2026-10-15 161615.png",
     "Documenti importanti/App da attenzionare.md",
     "Terzo anno/Machine Learning/Introduction_to_Machine_Learning_Fourth_Edition_Ethem_Alpaydin_z.pdf",
     "Terzo anno/Terzo anno.md",
@@ -242,7 +242,6 @@
     "Secondo anno/Reti di calcolatori/Link Utili Reti.md",
     "Secondo anno/Sistemi operativi/Sistemi Operativi.md",
     "Secondo anno/Sistemi operativi/Esame1parte2.jpeg",
-    "Secondo anno/Sistemi operativi/Esame1parte1.jpeg",
     "Secondo anno/Sistemi Operativi.md",
     "Senza nome.canvas",
     "Primo anno/Architettura degli elaboratori/Architettura degli elaboratori.md",
