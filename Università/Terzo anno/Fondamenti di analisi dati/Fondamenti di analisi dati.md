@@ -1,4 +1,4 @@
-Link sito Furnari:
+![[Screenshot 2026-10-20 172737.png]]Link sito Furnari:
 	https://antoninofurnari.github.io/fad-2627/
 Python Tutorial:
 	[[lab_02_python_crash_course.pdf]]
@@ -210,5 +210,111 @@ La covarianza è una relazione binaria *simmetrica*
 
 Ci sono note sul rischio relativo sul sito, Lecture 5
 
-## 20/10/2026
+## 20/10/2026 (Lecture 6)
 
+Distribuzione di probabilità
+
+Può essere utile capire con che probabilità può una variabile assumere tutti i suoi possibili valori di output
+
+Quando una variabile random X segue una distribuzione di probabilità P(X), si dice che X segue P:      $X$ ~ $P$
+
+Per le variabili discrete, parliamo di Probability Mass Functions (PMF)
+
+P è una funzione di mapping dei valori di X
+$P:\Omega \rightarrow [0,1]$
+
+La PMF deve seguire la seguente proprietà:
+$$
+\sum_{x\in\Omega}{P(x)}=1
+$$
+
+Esempio di rappresentazione con una moneta non truccata:
+![[Screenshot 2026-10-20 152802.png]]
+
+ECDF
+
+CDF: Cumulative Distribution of Discrete Variables
+
+Per le variabili continue il discorso è più complicato
+La PDF, Probability Density Functions, le definisco come integrale di una funzione f, che permette di mappare l'insieme "continuo" dei valori
+(Metti formula)
+
+In termini probabilistici parleremo comunque dei valori in termini discreti
+Infatti per l'integrazione si usa il metodo dei trapezi
+
+Distribuzione uniforme: assegna la stessa probabilità a tutti i valori in un intervallo
+
+Approssimare una PDF dai dati
+Verso fine corso lo faremo con una funzione, per ora lo possiamo fare attraverso gli istogrammi
+
+![[Screenshot 2026-10-20 155606.png]]
+
+Ormai si usa solo quellò di densità per non confondersi coi due istogrammi
+
+CDF c'è anche nelle variabili continue, faccio integrale invece di somma
+
+Distribuzioni di probabilità comuni:
+Per lo più discrete
+
+Distribuzione Uniforme Discreta:
+
+Distribuzione di Bernoulli:
+Distribuzione parametrica, una famiglia di funzione con dei parametri che definiti quelli, vado a definire lo scopo specifico
+Quella di bernulli è su una singola variabile binaria $\phi$
+
+Distribuzione Binomiale:
+Ha più parametri, risponde alla domanda "Qual è la probabilità di k successi in n tentativi indipendenti?"
+
+Distribuzione categorica:
+Una generalizzazione di quella di Bernoulli
+"Qual è la probabilità di ottenere esattamente l'esito i con k possibili esiti?"
+Ci sono vari parametri, la cui somma fa 1
+
+Distribuzione multinomiale:
+Generalizzazione di quella categorica
+"Qual è la probabilità, lanciando n dadi, di ottenere un certo numero di 4, un certo numero di 6, ecc?"
+
+Distribuzione Gaussiana
+È una PDF, conosciuta anche come distribuzione normale
+Dipende da due variabili:
+	La media
+	La varianza
+
+Ho presa la distanza fra x ed m, e ho normalizzato per la varianza
+Primo pezzo della formula normalizza, il secondo la "abbassa" e "allarga" o viceversa, fa cioè in modo che l'integrale della funzione sia sempre uguale a 1 per mantenere giusto il concetto di probabilità
+
+La gaussiana è importante, e lo capiamo grazie al teorema del limite centrale (Vedi meglio).
+
+La gaussiana appare ovunque in natura.
+
+Se io ho un numero n di variabili che sono indipendenti e ognuna con la propria distribuzione, la somma di queste distribuzioni di probabilità tende alla distribuzione di Gauss, indipendentemente dalla distribuzione originale
+
+La gaussiana può esistere anche su più dimensioni
+In questo caso la matrice ha 3 gradi di libertà
+
+Gaussiana isotropica: varianza di x e y = 1, covarianza = 0, non ci trovo un trend
+
+Con la covarianza presente, la gaussiana si "appiattisce"
+![[Screenshot 2026-10-20 172737.png]]
+
+Stima dei parametri di una gaussiana
+Ci sono delle formule per trovare i parametri migliori
+Matrice covarianza:
+
+$$
+\frac{1}{N-1}\sum_{i=1}^{N}(x_i-\hat\mu)(x_i-\hat\mu)^T
+$$
+
+Il valore atteso: Il valore che mi aspetto che sia più frequente, una sorta di media
+
+Per variabili continue:
+$$
+E_{X\text{~}P}[X]=\int_{x\in\Omega}xf(x)dx
+$$
+Teoria dell'informazione:
+Gli eventi rari potenzialmente sono più informativi, nel caso del tempo metereologico una temperatura anomala mai registrata prima implica qualche avvenimento degno di nota
+Due eventi indipendenti sono additivi
+
+
+Entropia:
+Misura l'incertezza media associata ai possibili output di una variabile random

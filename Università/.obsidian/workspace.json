@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "8e51e04afe1adcd6",
+        "id": "23b4accc180a3611",
         "type": "tabs",
         "children": [
           {
-            "id": "994bf2c75da857c3",
+            "id": "a021f32422e4f225",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terzo anno/Machine Learning/Machine Learning.md",
+                "file": "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Machine Learning"
+              "title": "Fondamenti di analisi dati"
             }
           }
         ]
@@ -202,12 +202,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "994bf2c75da857c3",
+  "active": "a021f32422e4f225",
   "lastOpenFiles": [
-    "Terzo anno/Machine Learning/Machine Learning.md",
-    "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
-    "Terzo anno/Fondamenti di analisi dati/Teoria/04_association.pdf",
+    "Terzo anno/Fondamenti di analisi dati/Screenshot 2026-10-20 172737.png",
+    "Terzo anno/Fondamenti di analisi dati/Screenshot 2026-10-20 155606.png",
+    "Terzo anno/Fondamenti di analisi dati/Screenshot 2026-10-20 152802.png",
     "Terzo anno/Machine Learning/Screenshot 2026-10-17 185633.png",
+    "Terzo anno/Fondamenti di analisi dati/Screenshot 2026-10-17 185633.png",
+    "Terzo anno/Machine Learning/Terzo anno.lnk",
+    "Terzo anno/Fondamenti di analisi dati/Teoria/lab_03_python_for_data_science.pdf",
+    "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
+    "Terzo anno/Fondamenti di analisi dati/Teoria/lab_02_python_crash_course.pdf",
+    "Terzo anno/Machine Learning/Machine Learning.md",
+    "Terzo anno/Fondamenti di analisi dati/Teoria/04_association.pdf",
     "Terzo anno/Machine Learning/Machine Learning.pdf",
     "Terzo anno/Fondamenti di analisi dati/Screenshot 2026-10-15 161905.png",
     "Terzo anno/Fondamenti di analisi dati/Screenshot 2026-10-15 161615.png",
@@ -224,10 +231,7 @@
     "Documenti importanti/Tabella_Propedeuticità.pdf",
     "Documenti importanti/Materie terzo anno.md",
     "Documenti importanti/Documenti importanti.md",
-    "Secondo anno/Analisi II/Teoria/Capitolo_serie_2526.pdf",
-    "Secondo anno/Analisi II/Teoria/Capitolo_integrali_2526.pdf",
     "Secondo anno/Analisi II/Analisi II.md",
-    "Secondo anno/Analisi II/Teoria/Capitolo_equazioni_differenziali_2526.pdf",
     "Secondo anno/Algoritmi/Algoritmi.md",
     "Terzo anno/Fondamenti di analisi dati.md",
     "Secondo anno/Secondo anno.md",
@@ -238,13 +242,10 @@
     "Secondo anno/Sistemi operativi/Sistemi Operativi.md",
     "Secondo anno/Sistemi operativi/Esame1parte2.jpeg",
     "Secondo anno/Sistemi operativi/Esame1parte1.jpeg",
-    "Secondo anno/Sistemi operativi/WhatsApp Image 2026-07-14 at 19.23.00.jpeg",
-    "Secondo anno/Sistemi operativi/WhatsApp Image 2026-07-14 at 19.22.00.jpeg",
     "Secondo anno/Sistemi Operativi.md",
     "Senza nome.canvas",
     "Primo anno/Architettura degli elaboratori/Architettura degli elaboratori.md",
     "Primo anno/Analisi I/Analisi I.md",
-    "Primo anno/Analisi I/Simulazioni/Esame7.jpg",
     "Primo anno/Algebra lineare/Algebra lineare.md",
     "Primo anno/Primo anno.md",
     "crea un collegamento.md",
