@@ -8,34 +8,53 @@ Teoria:
 	[[02_describing_visualizing.pdf]]
 	[[03_probability.pdf]]
 	[[04_association.pdf]]
-## 06/10/2026
+	[[05_distributions.pdf]]
+## 06/10/2026 Lecture 1
 
 Dati= Sono una collezione di valori ottenuti rispetto a determinate variabili che descrivono un determinato fenomeno  
-Variabili= dimensioni che vogliamo misurare  
-Osservazioni= Unità fondamentale attraverso la quale si fa lo studio  
-Popolazione= Il set completo dei dati da studiare, l’intero “universo”  
+
+Variabili= dimensioni che vogliamo misurare
+
+Osservazioni= Unità fondamentale attraverso la quale si fa lo studio
+Da considerare come entità astratte, per esempio potremmo leggere "Consideriamo una persona $w$"
+
+Popolazione= Il set completo dei dati da studiare, l’intero “universo”
+Solitamente indicato con il simbolo "$\Omega$"
+
+TUTTE le osservazione seguono la proprietà $w\in\Omega$
+
 Sample, campione= Sottoinsieme della popolazione
+{$w^{(1)},w^{(2)},\dots,w^{(n)}$}$\text{~}\subseteq\Omega$
 
 La popolazione potrebbe essere anche un concetto leggermente astratto, un esempio teorico, “Tutte le persone vive al momento e in futuro per testare un farmaco” è un buon esempio, una popolazione teoricamente infinita
 
 Il campione è ciò che va utilizzato quando la popolazione è inottenibile nella sua totalità. Non tutti i campioni sono buoni però, ci sono metodi per migliorarli e “pulirli”
 
 
-Definizione formale di variabile= Una variabile è una funzione, che in generale indico con una lettera maiuscola, definita in un insieme Omega e ha valori S, dove Omega è la popolazione ed S sono tutti i possibili risultati. Una piccola osservazione presa da Omega la chiamiamo omega piccolo, e un valore preso da S con una lettera piccola, la stessa che ho scelto per la variabile. Omega piccolo non è necessariamente un numero, possiamo anche definirlo come vogliamo, anche come una tupla.
+Definizione formale di variabile= Una variabile è una funzione, che in generale indico con una lettera maiuscola, definita in un insieme Omega e ha valori S, dove Omega è la popolazione ed S sono tutti i possibili risultati. 
+$$
+X : \Omega \rightarrow S
+$$
+Una piccola osservazione presa da Omega la chiamiamo omega piccolo, e un valore preso da S con una lettera piccola, la stessa che ho scelto per la variabile. Omega piccolo non è necessariamente un numero, possiamo anche definirlo come vogliamo, anche come una tupla.
+Osservazione: $w\rightarrow x$
 
-Variabili discrete: numeri interi
+Le variabili possono essere:
+	Qualitative: Rappresentano proprietà non rappresentabili con un valore numerico 
+	Quantitative: Valori rappresentabili con valori numerici
 
-Variabili continue: Valori continui
+Variabili discrete: Assumono un valore finito di possibili valori
+
+Variabili continue: Assume un valore continuo di valori in un intervallo ben definito
 
 Variabili scalari: descritta da un singolo valore con associata una specifica unita di misura
 
-Variabili multidimensionali: Una tupla per esempio
+Variabili multidimensionali: Una tupla o una matrice per esempio
 
-Variabili discrete scalari: Tipo il lancio di una moneta
+Variabili discrete scalari: Contiene il risultato di un esperimento nello specifico, nel caso del lancio di una moneta potremmo avere $X=tail$
 
 Concetto di scala: preferiremo usare una scala nominale quando i valori non sono numerabili
 
-Nella scala ordinale, i valori li possiamo ordianare, ma la differenza fra questi valori non ha necessariamente un significato. Posso definirli in modo tale che ce l’abbiano, ma non è necessariamente cosi. Es, qualcosa che è caldo 20 gradi non caldo il doppio di 10 gradi perchè lo zero non è definito
+Nella scala ordinale, i valori li possiamo ordinare, ma la differenza fra questi valori non ha necessariamente un significato. Posso definirli in modo tale che ce l’abbiano, ma non è necessariamente cosi. Es, qualcosa che è caldo 20 gradi non caldo il doppio di 10 gradi perchè lo zero non è definito
 
 Un dataset è un insieme di dati, non per forza una tabella, un design matrix è una formattazione di questi dati in modo tale che su tali dati sia facile lavorarci.
 
@@ -49,19 +68,33 @@ Data frame=design matrix
 
 Data Wrangling: tecniche per trasformare i dati e usarli in analisi più complesse
 
-## 08/10/2026
+## 08/10/2026 Lecture 2
 
-Lezione 3 sul sito
+Descrivere i dati ci aiuta a:
+	Raccogliere informazioni dai dataset
+	Capire le caratteristiche principali di ogni variabile
+	Individuare valori mancanti o anomali
+	Identificare le relazioni fra le variabili
+	Scoprire dei trend o dei cluster di dati simili
 
-## 13/10/2026
+Frequenze assolute:
+Un primo modo di descrivere i dati è calcolare il numero di volte che ogni valore appare. Questo numero è chiamato "frequenza assoluta". Solitamente viene calcolato per le variabili discrete, in cui è effettivamente possibile contare tutte le istanze.
+Riescono a darci un'idea di come i dati sono distribuiti
 
-Quali valori le variabili assumeranno?
-Questa è la domanda che ci interessa 
+Frequenze relative:
+$$
+f_j=f(a_j)=\frac{n_j}{N},j=1,2,\dots,k
+$$
+Le frequenze relative sono indipendenti dalla grandezza del campione
+## 13/10/2026 Lecture 3
+In certi casi è possibile predirre i valori di output degli esperimenti perfettamente. È possibile solo se si parla di sistemi deterministici, dove il risultato segue direttamente le condizioni iniziali e non esistono interferenze
+
 I sistemi possono essere:
 	Deterministici: Prevedibilità perfetta dei dati
 	Incerti o Stocastici: Non è facile predirre con certezza i risultati, richiede ragionamenti statistici e probabilistici
 
-Le fonti della mancanza di certezza sono svariate:
+Nella vita reale però non esistono i sistemi totalmente deterministici e siamo quindi esposti all'incertezza. L'incertezza può scaturire da vari fattori:
+
 Principalmente è la casualità intrinseca in tutto ciò che esiste, poi c'è anche
 l'osservabilità incompleta, cioè la mancanza di informazioni, e la mancanza di un modello accurato che riassume per bene il problema alla mano (Robot con telecamera RGB)
 

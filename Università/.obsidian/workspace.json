@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bfe2eb48213648d6",
+        "id": "7e4df744f51df7dc",
         "type": "tabs",
         "children": [
           {
-            "id": "564e479cd66ede89",
+            "id": "83a726dba3ecb5f8",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.3000183105469
+    "width": 362.3000183105469,
+    "collapsed": true
   },
   "right": {
     "id": "13a777c110ecdf37",
@@ -95,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Primo anno/Algebra lineare/Algebra lineare.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 294.2999267578125
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,9 +198,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6741813ec72f4113",
+  "active": "83a726dba3ecb5f8",
   "lastOpenFiles": [
+    "Terzo anno/Fondamenti di analisi dati/Teoria/05_distributions.pdf",
+    "Terzo anno/Fondamenti di analisi dati/Teoria/02_describing_visualizing.pdf",
     "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
+    "Terzo anno/Fondamenti di analisi dati/Teoria/03_probability.pdf",
+    "Terzo anno/Fondamenti di analisi dati/Teoria/01_key_concepts.pdf",
     "Screenshot",
     "Screenshot/Screenshot 2026-10-20 172737.png",
     "Screenshot/Screenshot 2026-10-20 155606.png",
@@ -216,15 +220,11 @@
     "Screenshot/Screenshot 2026-10-15 161905.png",
     "Screenshot/Screenshot 2026-10-15 161615.png",
     "Documenti importanti/App da attenzionare.md",
-    "Terzo anno/Machine Learning/Introduction_to_Machine_Learning_Fourth_Edition_Ethem_Alpaydin_z.pdf",
     "Terzo anno/Terzo anno.md",
     "Hub.md",
     "Terzo anno/Machine Learning.md",
-    "Terzo anno/Machine Learning",
-    "Terzo anno/Nuova cartella",
     "Terzo anno/Fondamenti di analisi dati/Pasted image 20261015161921.png",
     "Pasted image 20261015161706.png",
-    "Primo anno/Analisi I/Teoria/AppuntiCap1.pdf",
     "Documenti importanti/Materie terzo anno.md",
     "Documenti importanti/Documenti importanti.md",
     "Secondo anno/Analisi II/Analisi II.md",
