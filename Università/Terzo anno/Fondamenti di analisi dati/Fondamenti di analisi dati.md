@@ -434,3 +434,12 @@ Quando ho campioni piccoli, ho divergenze dalla gaussiana sostanziali che mi cos
 $$
 \huge T_{n-1}=\frac{\overline X -\mu}{s_{n-1}/\sqrt n}
 $$
+Intervalli di confidenza:
+Ho un modo per stimare un $\overline x$, ma con campioni molto grandi queste stime medie potrebbero differire. Quindi andiamo a definire dei limiti per queste differenze, per capire dove la vera media $\mu$ probabilmente si trova.
+
+$$
+\huge P(\mu-\sigma\leq\overline x \leq \mu+\sigma)=0.683
+$$
+
+E troviamo conferma della validità di questo intorno anche nel teorema centrale del limite.
+
