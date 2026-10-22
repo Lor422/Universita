@@ -380,3 +380,40 @@ Due eventi indipendenti sono additivi
 
 Entropia:
 Misura l'incertezza media associata ai possibili output di una variabile random
+
+# 22/10/2026
+
+Inferenza statistica: Trarre conclusioni affidabili sulle popolazioni a partire dai campioni
+
+L'arte del campionamento:
+
+La regola d'oro è di estrarre i campioni randomicamente, rimanendo senza bias (quindi ogni elemento ha la stessa probabilità di essere selezionato) e mantenendo la selezione indipendente (Cioè la selezione di un elemento non influisce su quella degli altri). E ci deve essere pure una sufficiente numerosità
+
+Certe volte il campionamento può andare male:
+	Durante un sondaggio chiedo solo ad una certa demografica (Selection Bias)
+	In un sondaggio raccolgo solo le risposte molto motivate e ignoro le mancate risposte (Response Bias)
+	Un sondaggio telefono manca chiunque non possegga un telefono (Coverage Bias)
+
+La grandezza del campione conta
+Più campioni ho, più è difficile cadere nel "sotto-campionamento", ma aumenta anche il rischio di prendere troppi dati
+
+Le popolazioni sono complesse, e per semplificarle si ricorre al campionamento stratificato, che consiste nel dividere la popolazione in sottogruppi omogenei basandosi su una variabile rilevante. Nel caso di persone per esempio questa variabile potrebbe essere il Lavoro. E successivamente si fa un campionamento random per ogni strato, per assicurare una rappresentazione proporzionata
+
+Ovviamente è un processo possibile solo quando ho informazioni che rispettano certe proprietà a mia disposizione
+
+La media di un campionamento random può essere utile a capire se c'è qualche problema all'interno dei dati. Nel caso di un panificio, se generalmente ho una produzione di biscotti stimata di $\hat\mu=1000g$ , se in genere ho una media $\hat\mu_1=999.7g$ va bene, se invece dovesse discostare troppo come $\hat\mu_2=400g$ chiaramente c'è stato un problema nel giorno 2
+
+Posso capire la media totale della popolazione anche a partire dalla media dei sottoinsiemi, che generalmente dovrebbe essere vicina al valore effettivo:
+$$
+\huge \overline X=\frac{X_1+X_2+\dots+X_n}{n}
+$$
+E secondo il teorema centrale del limite sappiamo che la distribuzione della media campionaria dovrebbe prendere la forma di una Gaussiana
+
+$$
+\huge E[\overline X]= E[\frac{1}{n}\sum_{i=1}^n X_i]=\frac{1}{n}\sum_{i=1}^{n} E[X_i]=\mu
+$$
+$$
+\huge Var[\overline X]= Var[\frac{1}{n}\sum_{i=1}^n X_i]=\frac{1}{n^2}\sum_{i=1}^{n} Var[X_i]=\frac{\sigma^2}{n}
+$$$$
+\huge Std[\overline X]=\frac{\sigma}{\sqrt n}
+$$

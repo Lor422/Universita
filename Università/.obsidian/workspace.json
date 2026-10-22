@@ -11,10 +11,14 @@
             "id": "83a726dba3ecb5f8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "Nuova scheda"
+              "title": "Fondamenti di analisi dati"
             }
           }
         ]
@@ -200,9 +204,10 @@
   },
   "active": "83a726dba3ecb5f8",
   "lastOpenFiles": [
+    "Terzo anno/Fondamenti di analisi dati/Teoria/04_association.pdf",
+    "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
     "Terzo anno/Fondamenti di analisi dati/Teoria/05_distributions.pdf",
     "Terzo anno/Fondamenti di analisi dati/Teoria/02_describing_visualizing.pdf",
-    "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
     "Terzo anno/Fondamenti di analisi dati/Teoria/03_probability.pdf",
     "Terzo anno/Fondamenti di analisi dati/Teoria/01_key_concepts.pdf",
     "Screenshot",
@@ -215,7 +220,6 @@
     "Terzo anno/Fondamenti di analisi dati/Teoria/lab_03_python_for_data_science.pdf",
     "Terzo anno/Fondamenti di analisi dati/Teoria/lab_02_python_crash_course.pdf",
     "Terzo anno/Machine Learning/Machine Learning.md",
-    "Terzo anno/Fondamenti di analisi dati/Teoria/04_association.pdf",
     "Terzo anno/Machine Learning/Machine Learning.pdf",
     "Screenshot/Screenshot 2026-10-15 161905.png",
     "Screenshot/Screenshot 2026-10-15 161615.png",
