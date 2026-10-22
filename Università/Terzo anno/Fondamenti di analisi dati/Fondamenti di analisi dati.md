@@ -417,3 +417,20 @@ $$
 $$$$
 \huge Std[\overline X]=\frac{\sigma}{\sqrt n}
 $$
+Errore Standard:
+La deviazione standard comunque dipende dalla varianza della popolazione, che non posso calcolare.
+In genere quindi vado ad usare la deviazione standard del campione:
+$$
+\huge s_{n-1}=\sqrt{\frac{1}{n-1}\sum_{i=1}^n (x_i-\overline x)^2}
+$$
+E definisco l'errore standard (SE) come:
+$$
+	\huge SE(\overline x)= \frac{s_n -1}{\sqrt n}
+$$
+Queste formule però non sono sempre vere, in genere negli esempio pratici troveremo che l'SE =$\Large \frac{1}{\sqrt n}$
+
+Quando ho campioni piccoli, ho divergenze dalla gaussiana sostanziali che mi costringono a cambiare distribuzione. In questi casi si usa la "T-distribution". Ha una formula simile allo z-scoring, e questo perché effettivamente stiamo normalizzando per far "somigliare" questa distribuzione ad una gaussiana
+
+$$
+\huge T_{n-1}=\frac{\overline X -\mu}{s_{n-1}/\sqrt n}
+$$
