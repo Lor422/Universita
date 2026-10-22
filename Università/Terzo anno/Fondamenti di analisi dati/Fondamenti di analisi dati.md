@@ -447,3 +447,10 @@ E possiamo quindi scrivere la formula come:
 $$
 \huge P(\overline x-\sigma\leq\mu \leq \overline x+\sigma)=0.683
 $$
+In generale, scelta una percentuale $p$, che chiamiamo livello di confidenza, possiamo ottenere un numero $\beta$ tale che:
+$$
+\huge [\overline x-\beta SE(\overline x),\overline x+\beta SE(\overline x)]
+$$
+Oppure possiamo scegliere un livello di significanza $\alpha$ che quantifica quante volte il valore della vera media ricade al di fuori dell'intervallo da noi scelto
+
+Solitamente si sceglie $\alpha=0.05$
