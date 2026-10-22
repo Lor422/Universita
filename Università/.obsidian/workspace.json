@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7e4df744f51df7dc",
+        "id": "74ea0607eb5878cf",
         "type": "tabs",
         "children": [
           {
-            "id": "83a726dba3ecb5f8",
+            "id": "6e3206a179bab119",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -202,11 +202,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "83a726dba3ecb5f8",
+  "active": "6e3206a179bab119",
   "lastOpenFiles": [
-    "Terzo anno/Fondamenti di analisi dati/Teoria/04_association.pdf",
-    "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
     "Terzo anno/Fondamenti di analisi dati/Teoria/05_distributions.pdf",
+    "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
+    "Terzo anno/Fondamenti di analisi dati/Teoria/04_association.pdf",
     "Terzo anno/Fondamenti di analisi dati/Teoria/02_describing_visualizing.pdf",
     "Terzo anno/Fondamenti di analisi dati/Teoria/03_probability.pdf",
     "Terzo anno/Fondamenti di analisi dati/Teoria/01_key_concepts.pdf",

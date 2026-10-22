@@ -158,7 +158,7 @@ Modi di definire indipendenza:
 	Probabilità condizionale: $P(X=x|Y=y)=P(X=x)$
 	Probabilità congiunta: $P(X=x,Y=y)=P(X=x)*P(Y=y)$
 
-## 15/10/2026
+## 15/10/2026 Lecture 4
 
 Associazioni fra variabili
 
@@ -243,7 +243,7 @@ La covarianza è una relazione binaria *simmetrica*
 
 Ci sono note sul rischio relativo sul sito, Lecture 5
 
-## 20/10/2026 (Lecture 6)
+## 20/10/2026 Lecture 5
 
 Distribuzione di probabilità
 
@@ -381,7 +381,7 @@ Due eventi indipendenti sono additivi
 Entropia:
 Misura l'incertezza media associata ai possibili output di una variabile random
 
-# 22/10/2026
+# 22/10/2026 Lecture 6
 
 Inferenza statistica: Trarre conclusioni affidabili sulle popolazioni a partire dai campioni
 
@@ -467,3 +467,8 @@ Creo una rappresentazione empirica di questi dati e la osservo
 
 BIAS:
 Unità di misura per l'inaccuratezza
+
+Test di ipotesi:
+Strumenti formali che mi permettono di rispondere a certe domande sui dati in modo affermativo o negativo
+
+Test statistici:
