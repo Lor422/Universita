@@ -443,3 +443,7 @@ $$
 
 E troviamo conferma della validità di questo intorno anche nel teorema centrale del limite.
 
+E possiamo quindi scrivere la formula come:
+$$
+\huge P(\overline x-\sigma\leq\mu \leq \overline x+\sigma)=0.683
+$$
