@@ -454,3 +454,16 @@ $$
 Oppure possiamo scegliere un livello di significanza $\alpha$ che quantifica quante volte il valore della vera media ricade al di fuori dell'intervallo da noi scelto
 
 Solitamente si sceglie $\alpha=0.05$
+
+Bootstraping:
+Per trovare un intervallo di confidenza con campioni in cui non esiste una formula ben precisa
+
+È un metodo molto più flessibile ma più fragile, cioè potrebbe essere meno affidabile
+
+Prendiamo il campione originale di grandezza $n$
+Vado a creare dei sotto-campioni della stessa grandezza con dei rimpiazzi, prendendo più volte dei valori
+Calcolo la statistica che mi serve da ciascun campione
+Creo una rappresentazione empirica di questi dati e la osservo
+
+BIAS:
+Unità di misura per l'inaccuratezza
