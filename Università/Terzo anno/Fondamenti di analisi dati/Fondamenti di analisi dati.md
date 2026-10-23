@@ -85,7 +85,41 @@ Frequenze relative:
 $$
 f_j=f(a_j)=\frac{n_j}{N},j=1,2,\dots,k
 $$
+Dove $n_j$ sono le frequenze assolute
 Le frequenze relative sono indipendenti dalla grandezza del campione
+
+Grazie a questa definizione possiamo descrivere le proprietà:
+$$
+\huge n_j\leq n \implies f_j\leq1\text{~} \forall j
+$$
+$$
+\huge \sum_jf_j=\sum_j \frac{n_j}{N}=\frac{1}{N}\sum_j n_j=\frac{N}{N}=1
+$$
+Graficando su un'istogramma le frequenze relative dopo averle normalizzate otteniamo un istogramma simile a quello delle frequenze assolute, ma con una scala diversa sull'asse delle y
+
+L'istogramma delle frequenze relative è utile per confrontare diversi campioni, in quanto riusciamo a fare delle osservazioni qualitative che potrebbero essere utili.
+Un esempio possono essere le altezze di varie persone relative ad età e sesso:
+![[Screenshot 2026-10-23 173652.png]]
+Da questo grafico possiamo vedere che generalmente le donne sono più basse degli uomini
+
+I grafici a torta solitamente funzionano solo quando gli elementi da rappresentare sono pochi, è meglio evitarli in quanto è difficile usarli efficacemente
+
+Funzione di Distribuzione Cumulativa Empirica (ECDF)
+Quando i valori unici nel nostro dataset sono numerosi, le frequenze relative diventano difficili da rappresentare, in quanto si va a creare del rumore nel grafico e visivamente diventa difficile da leggere.
+Uno dei modi per risolvere questo problema è la ECDF, che calcola per un valore x la somma delle frequenze relative di tutti i valori y $\leq$ x
+$$
+\huge ECDF(x)=\sum_{a_j:a_j\leq x}f(a_j)
+$$
+I valori dell'ECDF sono sempre crescenti e l'ultimo valore è sempre uguale ad 1
+
+La definizione di ECDF ci dice quindi che dato un punto di coordinate (x,y), la somma delle frequenze degli elementi minori o uguali di x è uguale a y. SI può dire anche che y% degli elementi hanno un valore minore di x
+
+Il numero di pin in un istogramma può essere deciso arbitrariamente in base al grafico che vuoi come risultato. Ci sono due modi euristici che sono ampiamente utilizzati:
+	Metodo Sturges: # di pins=$\Large 3.3\log{n}$
+	Metodo Rice: # di pins=$\Large 2*n^{\frac{1}{3}}$
+Dove $n$ è il numero di elementi che sto considerando
+
+
 ## 13/10/2026 Lecture 3
 In certi casi è possibile predirre i valori di output degli esperimenti perfettamente. È possibile solo se si parla di sistemi deterministici, dove il risultato segue direttamente le condizioni iniziali e non esistono interferenze
 

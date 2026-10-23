@@ -1,5 +1,4 @@
-Libro:
-	[[Introduction_to_Machine_Learning_Fourth_Edition_Ethem_Alpaydin_z.pdf]]
+Libro:	[[Introduction_to_Machine_Learning_Fourth_Edition_Ethem_Alpaydin_z.pdf]]
 Slides:
 	[[Machine Learning.pdf]]
 ## 05/10/2026
@@ -145,4 +144,28 @@ Ci sono vari tipi:
 	Multiple Regression:  $\text F:R^n\rightarrow R$
 	Multivariate regression: $\text F:R^n\rightarrow R^{n_1}$
 Nel primo caso, ci permette di avere un'idea di come allenare l'ai
+
+## 23/10/2026 Da slide 33 a
+
+Modello regressione
+
+Funzione di Loss
+$$
+\huge f(v)=\frac{1}{m}\sum_{i=1}^{m}(I_v(x))
+$$
+(Da aggiustare)
+
+Un regressore lineare può tracciare solo linee nel grafico, ma potremmo avere la necessità di gestire lo spazio delle feature in modo non lineare. Ci serve quindi la regressione polinomiale, che definiamo:
+$$
+\huge \Theta:x\rightarrow \text{nuovo spazio polinomiale}
+$$
+$$
+\huge x_1=[x_1,x_1^2]
+$$
+$$
+\huge x_1\rightarrow[x_1,x_2,x_1^2,x_2^2,x_2x_2]
+$$
+Non trasformiamo il modello in maniera non lineare ma i risultati li diventano.
+Come scelgo il mio polinomio?
+Se scelgo male e non ho abbastanza parametri allora avrò problema di underfitting, cioè non descrivo bene il problema perché alcune parti del grafico vengono mancate, e viceversa se ho troppi parametri potrei avere overfitting
 
