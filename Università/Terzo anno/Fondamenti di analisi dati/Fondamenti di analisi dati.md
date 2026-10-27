@@ -509,3 +509,5 @@ Strumenti formali che mi permettono di rispondere a certe domande sui dati in mo
 Test statistici:
 
 ## 27/10/2026 Lecture 7
+
+aa
