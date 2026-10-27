@@ -11,10 +11,14 @@
             "id": "b68158dc02c32249",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista grafo"
+              "type": "markdown",
+              "state": {
+                "file": "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fondamenti di analisi dati"
             }
           }
         ]
