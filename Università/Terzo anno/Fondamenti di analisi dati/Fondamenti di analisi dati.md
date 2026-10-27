@@ -9,6 +9,7 @@ Teoria:
 	[[03_probability.pdf]]
 	[[04_association.pdf]]
 	[[05_distributions.pdf]]
+	[[06_statistical_inference.pdf]]
 ## 06/10/2026 Lecture 1
 
 Dati= Sono una collezione di valori ottenuti rispetto a determinate variabili che descrivono un determinato fenomeno  
@@ -506,3 +507,5 @@ Test di ipotesi:
 Strumenti formali che mi permettono di rispondere a certe domande sui dati in modo affermativo o negativo
 
 Test statistici:
+
+## 27/10/2026 Lecture 7

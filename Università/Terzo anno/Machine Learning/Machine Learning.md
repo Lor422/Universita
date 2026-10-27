@@ -170,3 +170,5 @@ Come scelgo il mio polinomio?
 Se scelgo male e non ho abbastanza parametri allora avrò problema di underfitting, cioè non descrivo bene il problema perché alcune parti del grafico vengono mancate, e viceversa se ho troppi parametri potrei avere overfitting
 
 Siamo a slide 38, 4.4.2 Entropia dell'informazione
+
+## 26/10/2026
