@@ -419,7 +419,7 @@ $$
 \huge N(x;\mu,\sigma^2)=\sqrt{\frac{1}{2\pi\sigma^2}}e^{-\frac{1}{2\sigma^2}(x-\mu)^2}
 $$
 
-Ho presa la distanza fra x ed m, e ho normalizzato per la varianza
+Ho presa la distanza fra x ed $\mu$, e ho normalizzato per la varianza
 Primo pezzo della formula normalizza, il secondo la "abbassa" e "allarga" o viceversa, fa cioè in modo che l'integrale della funzione sia sempre uguale a 1 per mantenere giusto il concetto di probabilità
 
 La gaussiana è importante, e lo capiamo grazie al teorema del limite centrale (Vedi meglio).
