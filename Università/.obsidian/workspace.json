@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 362.3000183105469
+    "width": 362.3000183105469,
+    "collapsed": true
   },
   "right": {
     "id": "13a777c110ecdf37",
@@ -201,22 +202,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6741813ec72f4113",
+  "active": "b68158dc02c32249",
   "lastOpenFiles": [
+    "Terzo anno/Fondamenti di analisi dati/Teoria/08_linear_regression.pdf",
+    "Terzo anno/Fondamenti di analisi dati/Teoria/02_describing_visualizing.pdf",
+    "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
     "Terzo anno/Fondamenti di analisi dati/Laboratorio/sleep-health.ipynb",
     "Terzo anno/Fondamenti di analisi dati/Laboratorio",
     "Terzo anno/Fondamenti di analisi dati/Nuova cartella",
-    "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
     "Terzo anno/Fondamenti di analisi dati/Teoria/06_statistical_inference.pdf",
     "Terzo anno/Machine Learning/Machine Learning.md",
     "Terzo anno/Machine Learning/Machine Learning.pdf",
-    "Terzo anno/Fondamenti di analisi dati/Teoria/02_describing_visualizing.pdf",
     "Screenshot/Screenshot 2026-10-23 173652.png",
     "Terzo anno/Machine Learning/Introduction_to_Machine_Learning_Fourth_Edition_Ethem_Alpaydin_z.pdf",
     "Terzo anno/Fondamenti di analisi dati/Teoria/05_distributions.pdf",
     "Terzo anno/Fondamenti di analisi dati/Teoria/04_association.pdf",
     "Terzo anno/Fondamenti di analisi dati/Teoria/03_probability.pdf",
-    "Terzo anno/Fondamenti di analisi dati/Teoria/01_key_concepts.pdf",
     "Screenshot/Screenshot 2026-10-20 172737.png",
     "Screenshot/Screenshot 2026-10-20 155606.png",
     "Screenshot/Screenshot 2026-10-20 152802.png",
