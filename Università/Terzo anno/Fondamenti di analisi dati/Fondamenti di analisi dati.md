@@ -10,6 +10,7 @@ Teoria:
 	[[04_association.pdf]]
 	[[05_distributions.pdf]]
 	[[06_statistical_inference.pdf]]
+	[[08_linear_regression.pdf]]
 ## 06/10/2026 Lecture 1
 
 Dati= Sono una collezione di valori ottenuti rispetto a determinate variabili che descrivono un determinato fenomeno  
@@ -120,7 +121,48 @@ Il numero di pin in un istogramma può essere deciso arbitrariamente in base al 
 	Metodo Rice: # di pins=$\Large 2*n^{\frac{1}{3}}$
 Dove $n$ è il numero di elementi che sto considerando
 
+Uno svantaggio degli istogrammi è la loro categorizzazione arbitraria di dati continui in "scatole". 
+La stima di densità cerca di risolvere questo problema dando una versione "continua" di un istogramma calcolando per ogni valore un punto di coordinate (x,y) da posizionare su un grafico.
+A queste stime è anche associato solitamente un valore chiamato "banda" che va ad identificare il valore di precisione con cui stimiamo queste densità.
 
+La grandezza di un campione è determinata dal numero di valori che contiene effettivamente, dettaglio importante da attenzionare in quanto potrebbero esserci colonne con dati mancanti, solitamente indicati con NA o NaN, che ci dice che la grandezza della colonna non corrisponde alla grandezza effettiva del campione
+
+Quantili, percentili e quartili generalizzano il concetto di mediana.
+
+Quantili: un quantile di ordine $\alpha$ è un valore $q_\alpha$ che divide il campione in 2 parte proporzionate, una di grandezza $\alpha$ e l'altra $1-\alpha$ . Per esempio, con $\alpha = 0.25$ , e usando come campione tutti i numeri da 1 a 100 $\in N$ , avremmo nel $q_{0.25}$ tutti i numeri da 1 a 25	
+Un quantile non può essere di ordine inferiore a 0, e superiore ad 1. La mediana è un quantile con ordine 0.5 (Con ordine intendiamo $\alpha$)
+
+I percentili sono modi di esprimere i quantili in percentuali, quindi come siamo abituati a dire nella vita quotidiana.
+
+I quartili sono quantili specifici che dividono il campione in quattro parti
+
+La moda di un campione è il valore che appare più frequentemente all'interno dei dati e rappresenta l'osservazione più comune
+
+La misure di dispersione servono a quantificare quanto ogni valore si distanzia l'uno dall'altro, e sono Massimo, minimo e range
+
+La varianza, conosciuta anche come Mean Squared Deviation, ci da una stima di quanto i dati osservati differiscono dalla media. La varianza calcolala media dei quadrati delle deviazioni dei valori dalla media, penalizzando grande deviazioni più di quelle piccole:
+$$
+\huge s_{n}^{2}=\frac{\sum_{i=1}^{n}(x_i-\overline x)^2}{n}
+$$
+La varianza però potrebbe risultare in valori con bias quando si lavora con campioni piccoli, quindi in questi casi si tende ad utilizzare la formula della varianza con n-1 al denominatore:
+$$
+\huge s_{n-1}^{2}=\frac{\sum_{i=1}^{n}(x_i-\overline x)^2}{n-1}
+$$
+In questo caso si usa $s$ come simbolo al posto di $\sigma$ come nel campo delle probabilità perché $s$ è solo una stima. Nella pratica però non c'è nessuna convenzione universale e i due simboli spesso sono intercambiati.
+
+La varianza cosi com'è però non usa la stessa unità di misura dei dati in input, e quindi per risolvere facciamo la radice della varianza ottenendo cosi la deviazione standard:
+
+$$
+\huge \sqrt {s_{n-1}^{2}}=\sqrt{\frac{\sum_{i=1}^{n}(x_i-\overline x)^2}{n-1}}
+$$
+
+Standardizzazione (z-scoring)
+
+In molti casi è utile normalizzare i dati in modo che abbiano una media uguale a 0 e una deviazione standard unitaria. Questa normalizzazione è chiamata z-scoring e si ottiene sottraendo la media dai dati e dividendo per la deviazione standard
+$$
+\huge z_i=\frac{x_i-\overline x}{s_x}
+$$
+Dove $s_x$ è la deviazione standard della popolazione a cui appartiene X. I z-scores sono senza unità di misura
 ## 13/10/2026 Lecture 3
 In certi casi è possibile predirre i valori di output degli esperimenti perfettamente. È possibile solo se si parla di sistemi deterministici, dove il risultato segue direttamente le condizioni iniziali e non esistono interferenze
 
@@ -377,7 +419,7 @@ $$
 \huge N(x;\mu,\sigma^2)=\sqrt{\frac{1}{2\pi\sigma^2}}e^{-\frac{1}{2\sigma^2}(x-\mu)^2}
 $$
 
-Ho presa la distanza fra x ed m, e ho normalizzato per la varianza
+Ho presa la distanza fra x ed $\mu$, e ho normalizzato per la varianza
 Primo pezzo della formula normalizza, il secondo la "abbassa" e "allarga" o viceversa, fa cioè in modo che l'integrale della funzione sia sempre uguale a 1 per mantenere giusto il concetto di probabilità
 
 La gaussiana è importante, e lo capiamo grazie al teorema del limite centrale (Vedi meglio).
@@ -508,6 +550,8 @@ Strumenti formali che mi permettono di rispondere a certe domande sui dati in mo
 
 Test statistici:
 
-## 27/10/2026 Lecture 7
+# 27/10/2026 Lecture 7
 
-aa
+Lezione di laboratorio, vedi il dataset scaricato e il notebook
+
+# 29/10/2026 Lecture 8
