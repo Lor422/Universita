@@ -460,7 +460,9 @@ Misura l'incertezza media associata ai possibili output di una variabile random
 
 # 22/10/2026 Lecture 6
 
-Inferenza statistica: Trarre conclusioni affidabili sulle popolazioni a partire dai campioni
+Inferenza statistica: Trarre conclusioni affidabili sulle popolazioni a partire da campioni ben scelti, che ci restituisce dati pratici su una quantità reale piuttosto che una astratta.
+
+Analizzare i dati prendendo campioni rappresentativi della popolazione è chiamata analisi inferenziale
 
 L'arte del campionamento:
 
