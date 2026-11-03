@@ -610,3 +610,10 @@ Scelgo i parametri in modo da essere il più simili possibili ai valori giusti
 
 Nell'ottimizzazione siamo più abituati a massimizzare che minimizzare (Per questo nel caso della stima dei logit consideriamo il negativo della produttoria)
 
+Non esiste una soluzione con forma chiusa per questo problema a differenza della regressione lineare, dove abbiamo il metodo dei minimi quadrati. Qui abbiamo un metodo iterativo (La discesa del gradiente)
+
+Se $\huge e^{\beta_0}=3$ significa che quando tutti gli input sono uguali a 0 la probabilità che $y = 1$ è 3 volte più probabile che $y = 0$
+
+$LL_{Null}$ Modello che considera 0 correlazione, dove tutti i parametri sono impostati a 0. Confrontiamo il nostro modello con questo (Prima confrontavamo, nel caso del del regressore lineare, il nostro modello col modello che restituisce sempre la media).
+Qui non spieghiamo la varianza ma la devianza (ovvero l'incertezza dell'outcome). Ci dice quanta incertezza il modello riesce a spiegare
+# 05/11/2026 Lecture 10
