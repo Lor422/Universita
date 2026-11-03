@@ -11,6 +11,7 @@ Teoria:
 	[[05_distributions.pdf]]
 	[[06_statistical_inference.pdf]]
 	[[08_linear_regression.pdf]]
+	[[09_logistic_regression.pdf]]
 ## 06/10/2026 Lecture 1
 
 Dati= Sono una collezione di valori ottenuti rispetto a determinate variabili che descrivono un determinato fenomeno  
@@ -557,3 +558,55 @@ Test statistici:
 Lezione di laboratorio, vedi il dataset scaricato e il notebook
 
 # 29/10/2026 Lecture 8
+
+# 03/11/2026 Lecture 9
+
+Regressione logistica
+
+Cerca di risolvere un problema diverso, ma hanno tanti punti in comune
+
+La regressione lineare ha dei limiti, grafica solo modelli lineari e quindi è abbastanza rigida. In compenso sono veloci e compatti, non devono memorizzare i dati di training e riescono a predirre su nuovi esempi facilmente
+
+Per esempio, nel caso dei casi di cancro al seno presente nelle slide non possiamo usare la regressione lineare in quanto i casi sono binari. La rappresentazione verrebbe cosi in questo caso:![[Screenshot 2026-11-03 152824.png]]
+
+Per modellare un caso del genere potrebbe essere interessante passare ad un modello basato sulle probabilità, invece di modellare direttamente la diagnosi.
+$$
+\huge P(Diagnosis=1|radius_1)
+$$
+
+Prima avevo solo 2 valori possibili, ora ho un range di valori compresi nell'intervallo $[0,1]$
+
+Per dimensioni troppo piccole del tumore sono sicuro sia benigno e viceversa, ma come rappresento i valori di mezzo?
+Se la probabilità fosse lineare non avrei mai 0 e 1 come risultati, quindi solitamente la probabilità ha una forma ad S nel grafico
+
+La funzione logistica ha esattamente le proprietà che ci servono
+$$
+\huge f(x)=\frac{1}{1+e^{-x}}
+$$
+Ha range $[0,1]$
+Approccia 0 e 1 agli estremi
+È differenziabile, utile per l'ottimizzazione
+
+Dato un evento binario, le odds di tale evento è una frazione
+$$
+\huge Odds=\frac{P(event)}{1-P(event)}
+$$
+E solitamente sono numeri interi.
+Se scrivo 3/1, significa che il primo evento è 3 volte più probabile del secondo
+Sostanzialmente è il rapporto fra la probabilità che un evento avvenga e che non avvenga
+
+Per definire il regressore logistico posso usare la funzione logistica:
+
+$$
+\huge P(Y=1|X)=f(\beta_0+\beta_1X)=\frac{1}{1+e^{-(\beta_0+\beta_1X)}}
+$$
+Da cui deriva:
+$$
+\huge e^{\beta_0+\beta_1x_1+\dots+\beta_nx_n}=\frac{P(Y=1|X)}{1-P(Y=1|X)}
+$$
+
+Stima dei parametri per verosimiglianza:
+Scelgo i parametri in modo da essere il più simili possibili ai valori giusti
+
+Nell'ottimizzazione siamo più abituati a massimizzare che minimizzare (Per questo nel caso della stima dei logit consideriamo il negativo della produttoria)
+
