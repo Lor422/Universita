@@ -4,9 +4,10 @@ Link utili:
 	VIDEO LAB SISTEMI
 	https://youtube.com/playlist?list=PLfqABt5AS4FmuQf70psXrsMLEDQXNkLq2&si=vQAXajw-d5Fnozrr
 
-	PROVE LAB SISTEMI
+PROVE LAB SISTEMI
 
-	https://git.crypto.dmi.unict.it/teaching/operating-systems.2024-2025/src/branch/main/lab%%
+https://git.crypto.dmi.unict.it/teaching/operating-systems.2024-2025/src/branch/main/lab%%
+
 Simulazioni:
 	[[Esame1parte1.jpeg]]
 	[[Esame1parte2.jpeg]]
