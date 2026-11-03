@@ -22,28 +22,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "3d54900ea8caa023",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "272119e60c8cd824",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Terzo anno/Fondamenti di analisi dati/Teoria/09_logistic_regression.pdf",
-                "page": 14,
-                "left": 28,
-                "top": 653,
-                "zoom": 1.05
-              },
-              "icon": "lucide-file-text",
-              "title": "09_logistic_regression"
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
