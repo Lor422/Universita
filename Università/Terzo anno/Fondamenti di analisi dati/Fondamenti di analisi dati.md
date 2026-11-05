@@ -539,6 +539,12 @@ Oppure possiamo scegliere un livello di significanza $\alpha$ che quantifica qua
 
 Solitamente si sceglie $\alpha=0.05$
 
+Quando si imposta un livello di significatività $\alpha = 0.05$ (ovvero un livello di confidenza del 95%), il valore critico $\beta$ corrispondente nella distribuzione normale è circa $1.96$. L'intervallo di confidenza per la media diventa quindi:
+
+$$\huge[\overline x - 1.96 \cdot SE(\overline x), \overline x + 1.96 \cdot SE(\overline x)]$$
+
+In pratica, per calcolare gli intervalli di confidenza di altre grandezze si usano distribuzioni diverse: la distribuzione $t$-Student per le medie (quando $n$ è piccolo), e la distribuzione $\chi^2$ per stimare gli intervalli di confidenza della varianza.
+
 Bootstraping:
 Per trovare un intervallo di confidenza con campioni in cui non esiste una formula ben precisa
 
@@ -549,14 +555,87 @@ Vado a creare dei sotto-campioni della stessa grandezza con dei rimpiazzi, prend
 Calcolo la statistica che mi serve da ciascun campione
 Creo una rappresentazione empirica di questi dati e la osservo
 
+Dopo aver calcolato la statistica per migliaia di sotto-campioni e aver costruito la distribuzione empirica, l'intervallo di confidenza al 95% si ottiene semplicemente estraendo il 2.5-esimo percentile (limite inferiore) e il 97.5-esimo percentile (limite superiore) della distribuzione ottenuta.
+
 BIAS:
-Unità di misura per l'inaccuratezza
+Definiamo $T(X)$ come un generico stimatore (ad esempio, la media campionaria) di un parametro reale della popolazione $\phi$ (ad esempio, la vera media $\mu$). Essendo basato su un campione casuale, $T(X)$ è esso stesso una variabile casuale.
 
-Test di ipotesi:
-Strumenti formali che mi permettono di rispondere a certe domande sui dati in modo affermativo o negativo
+- **Bias di uno stimatore:** Misura se lo stimatore sovrastima o sottostima sistematicamente il vero valore.
+$$\huge Bias_\phi(T(X)) = E[T(X)] - \phi$$
 
-Test statistici:
+Se $E[T(X)] = \phi$, lo stimatore si dice **non distorto** (unbiased). La media campionaria $\overline X$ è uno stimatore non distorto della media della popolazione $\mu$. Al contrario, la varianza campionaria standard $s_n^2 = \frac{1}{n}\sum (x_i - \overline x)^2$ è distorta (tende a sottostimare). Per questo si utilizza lo stimatore non distorto dividendo per $n-1$:
+  
+ $$\huge s_{n-1}^2 = \frac{1}{n-1}\sum_{i=1}^n (x_i - \overline x)^2$$
+  
+- **Varianza di uno stimatore:** Indica quanto la stima fluttua al variare del campione estratto. Una varianza bassa indica stime stabili e coerenti.
 
+$$\huge Var(T(X)) = E[(T(X) - E[T(X)])^2]$$
+
+**Trade-off Bias-Varianza** L'obiettivo ideale è avere uno stimatore con basso bias e bassa varianza (paragonabile a lanciare delle freccette che colpiscono tutte il centro del bersaglio in modo molto ravvicinato). Esistono quattro scenari:
+
+- **Basso bias, bassa varianza:** Tutte le stime sono vicine tra loro e concentrate sul vero valore.
+
+- **Basso bias, alta varianza:** In media le stime centrano il valore reale, ma i singoli risultati sono molto sparpagliati.
+
+- **Alto bias, bassa varianza:** Le stime sono molto coerenti e vicine tra loro, ma sistematicamente lontane dal vero valore.
+
+- **Alto bias, alta varianza:** Le stime sono completamente sparpagliate e distanti dal bersaglio.
+
+I test di ipotesi vengono usati per sfidare una specifica affermazione su un parametro della popolazione. Ogni test si basa su due ipotesi contrapposte:
+
+- **Ipotesi Nulla ($H_0$):** L'ipotesi predefinita che stiamo cercando di confutare (es. "La media della popolazione è esattamente 1000g").
+
+- **Ipotesi Alternativa ($H_a$):** L'ipotesi che abbracciamo se rifiutiamo $H_0$ (es. "La media della popolazione è diversa da 1000g").
+
+
+**Metriche decisionali:**
+
+- **Livello di significatività ($\alpha$):** La soglia di errore che siamo disposti ad accettare (tipicamente 0.05, ovvero il 5%).
+
+- **p-value:** La probabilità di osservare una statistica di test estrema (o più estrema) di quella calcolata, _assumendo che l'ipotesi nulla $H_0$ sia vera_. Se il p-value è minore di $\alpha$, si rifiuta $H_0$.
+
+
+**Tipi di Errore nei Test Statistici:** Siccome la decisione è basata su un campione, ci sono due tipi di errori possibili:
+
+1. **Errore di Tipo I (Falso Positivo):** Si rifiuta l'ipotesi nulla $H_0$ quando in realtà è vera. La probabilità di commettere questo errore è pari ad $\alpha$.
+
+2. **Errore di Tipo II (Falso Negativo):** Non si rifiuta l'ipotesi nulla $H_0$ quando in realtà è falsa (ci si lascia sfuggire un effetto reale).
+
+
+**Test a una o due code (One-tailed vs Two-tailed):** Dipende da come è formulata l'ipotesi alternativa $H_a$:
+
+- **A due code:** Se $H_a$ ipotizza una semplice differenza ($\mu \neq \mu_0$), si analizza la probabilità su entrambe le code della distribuzione ($P(\vert{}x\vert{} > \vert{}z\vert{})$).
+
+- **A una coda:** Se $H_a$ ipotizza una direzione precisa, maggiore o minore ($\mu > \mu_0$ oppure $\mu < \mu_0$), si calcola l'area di una singola coda.
+
+A seconda del tipo di dati (medie, distribuzioni categoriche, correlazioni), si usano test specifici:
+
+**Test per le Medie (T-Test):**
+
+- **One Sample T-Test:** Determina se la media di un singolo campione è significativamente diversa da un valore noto o ipotizzato.
+
+- **Two Sample T-Test:** Verifica se c'è una differenza significativa tra le medie di due campioni completamente indipendenti (es. per capire se due popolazioni differiscono o derivano dalla stessa distribuzione).
+
+
+**Test per Variabili Categoriche (Chi-Quadro / $\chi^2$):**
+
+- **Chi-Square Test for Independence:** Determina se esiste un'associazione (o se sono indipendenti) tra due variabili categoriche. Spesso si usa una tabella di contingenza per confrontare le frequenze osservate con le frequenze attese in caso di indipendenza.
+
+- **Chi-Square Goodness-of-Fit Test:** Verifica se un set di dati categorici osservati segue una specifica distribuzione teorica attesa. Se il p-value è grande, non possiamo scartare l'ipotesi che i dati seguano la distribuzione ipotizzata.
+
+
+**Test di Correlazione:**
+
+- **Test di Pearson / Spearman:** Valutano se un piccolo coefficiente di correlazione osservato (es. $0.10$) sia statisticamente significativo o se sia emerso solo per puro caso. L'ipotesi nulla stabilisce che nella popolazione il vero coefficiente di correlazione è pari a zero.
+
+
+**Test di Normalità (Verificare se un campione è Gaussiano):**
+
+- **Q-Q Plots (Quantile-Quantile):** Metodo visivo. Confronta i quantili dei dati empirici standardizzati con quelli della distribuzione normale teorica. Se il campione è gaussiano, i punti si allineano sulla diagonale $y=x$. Una curva che devia verso l'alto o verso il basso indica asimmetria (skewness), mentre pattern a "S" indicano code troppo pesanti o troppo leggere.
+
+- **Test di Shapiro-Wilk:** Test formale per stabilire se un campione deriva da una distribuzione normale, indicato principalmente per campioni di piccole dimensioni ($n \le 2000$).
+
+- **D'Agostino's K-squared Test:** Metodo preferito per campioni grandi ($n \ge 50$); stabilisce la normalità del campione basandosi sul calcolo formale di Skewness (asimmetria) e Kurtosis (schiacciamento).
 # 27/10/2026 Lecture 7
 
 Lezione di laboratorio, vedi il dataset scaricato e il notebook
