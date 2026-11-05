@@ -1,18 +1,21 @@
 Link sito Furnari:
 	https://antoninofurnari.github.io/fad-2627/
 Python Tutorial:
-	[[lab_02_python_crash_course.pdf]]
-	[[lab_03_python_for_data_science.pdf]]
+- [[lab_02_python_crash_course.pdf]]
+- [[lab_03_python_for_data_science.pdf]]
 Teoria:
-	[[01_key_concepts.pdf]]
-	[[02_describing_visualizing.pdf]]
-	[[03_probability.pdf]]
-	[[04_association.pdf]]
-	[[05_distributions.pdf]]
-	[[06_statistical_inference.pdf]]
-	[[08_linear_regression.pdf]]
-	[[09_logistic_regression.pdf]]
-	[[10_extending_regression.pdf]]
+Prima itinere
+- [[01_key_concepts.pdf]]
+- [[02_describing_visualizing.pdf]]
+- [[03_probability.pdf]]
+- [[04_association.pdf]]
+- [[05_distributions.pdf]]
+- [[06_statistical_inference.pdf]]
+- [[08_linear_regression.pdf]]
+- [[09_logistic_regression.pdf]]
+- [[10_extending_regression.pdf]]
+- [[11_causal_analysis.pdf]]
+Seconda itinere
 ## 06/10/2026 Lecture 1
 
 Dati= Sono una collezione di valori ottenuti rispetto a determinate variabili che descrivono un determinato fenomeno  
@@ -618,3 +621,25 @@ Se $\huge e^{\beta_0}=3$ significa che quando tutti gli input sono uguali a 0 la
 $LL_{Null}$ Modello che considera 0 correlazione, dove tutti i parametri sono impostati a 0. Confrontiamo il nostro modello con questo (Prima confrontavamo, nel caso del del regressore lineare, il nostro modello col modello che restituisce sempre la media).
 Qui non spieghiamo la varianza ma la devianza (ovvero l'incertezza dell'outcome). Ci dice quanta incertezza il modello riesce a spiegare
 # 05/11/2026 Lecture 10
+
+Tutorato ci sta, figo
+
+Modelli di regressione sono estendibili
+Le limitazione dei modelli che abbiamo visto sono:
+- Non riescono a gestire pattern non lineari
+- Non riescono a gestire la multipla co-linearità
+
+I termini di interazione possiamo usarli per permettere l'interazione fra più variabili che pensiamo siano correlate
+Esempio:
+$$
+\Large mpg=\beta_0+\beta_1horsepower+\beta_2weight+\beta_3(horsepower\text{~} x\text{~} weight)
+$$
+
+Stiamo comunque parlando di una relazione lineare in questo caso, quindi posso continuare ad applicare il metodo ols.![[Screenshot 2026-11-05 153407.png]]
+
+Se il valore di $horsepower\text{~} x\text{~} weight$ è quasi 0 si può togliere in quanto non è molto significativo
+
+È molto utile perché in questo modo la variabile non è lineare nel nostro scope, ma è comunque lineare nel caso di $\beta_0,\beta_1$ ecc.
+
+Dall'idea di aggiungere coefficienti di grado superiore per descrivere meglio la curva nasce la regressione polinomiale. Il numero di gradi di una funzione indica quanti flessi è in grado di avere, e quindi teoricamente più è alto il grado più è probabile sia in gradi di mappare un gran numero di funzioni. La presenza di tante variabili però è anche una limitazione in quanto il minimo cambiamento di una condizione del dataset lo cambia totalmente, quindi il modello potrebbe non funzionare più e dovrebbe quindi essere ricalibrato
+
