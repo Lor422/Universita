@@ -1,5 +1,5 @@
 Link sito Furnari:
-	https://antoninofurnari.github.io/fad-2627/
+- https://antoninofurnari.github.io/fad-2627/
 Python Tutorial:
 - [[lab_02_python_crash_course.pdf]]
 - [[lab_03_python_for_data_science.pdf]]
