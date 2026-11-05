@@ -12,6 +12,7 @@ Teoria:
 	[[06_statistical_inference.pdf]]
 	[[08_linear_regression.pdf]]
 	[[09_logistic_regression.pdf]]
+	[[10_extending_regression.pdf]]
 ## 06/10/2026 Lecture 1
 
 Dati= Sono una collezione di valori ottenuti rispetto a determinate variabili che descrivono un determinato fenomeno  

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "522a87d5409b9459",
+        "id": "9f514f86056df8cd",
         "type": "tabs",
         "children": [
           {
-            "id": "0ef2163da2bc2919",
+            "id": "e42c02f089e90ed1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Secondo anno/Sistemi operativi/Sistemi Operativi.md",
+                "file": "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sistemi Operativi"
+              "title": "Fondamenti di analisi dati"
             }
           }
         ]
@@ -201,8 +201,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0ef2163da2bc2919",
+  "active": "e42c02f089e90ed1",
   "lastOpenFiles": [
+    "Terzo anno/Fondamenti di analisi dati/Teoria/10_extending_regression.pdf",
+    "Secondo anno/Sistemi operativi/Sistemi Operativi.md",
     "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
     "Screenshot/Screenshot 2026-11-03 152824.png",
     "Terzo anno/Fondamenti di analisi dati/Teoria/09_logistic_regression.pdf",
@@ -239,7 +241,6 @@
     "Secondo anno/Reti di calcolatori/Reti di calcolatori.md",
     "Secondo anno/Reti di calcolatori/Informazioni Utili Reti.md",
     "Secondo anno/Reti di calcolatori/Link Utili Reti.md",
-    "Secondo anno/Sistemi operativi/Sistemi Operativi.md",
     "Secondo anno/Sistemi Operativi.md",
     "Senza nome.canvas",
     "Primo anno/Architettura degli elaboratori/Architettura degli elaboratori.md",
