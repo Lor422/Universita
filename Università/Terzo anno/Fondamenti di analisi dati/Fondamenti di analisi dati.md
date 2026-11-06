@@ -688,17 +688,61 @@ $$
 \huge e^{\beta_0+\beta_1x_1+\dots+\beta_nx_n}=\frac{P(Y=1|X)}{1-P(Y=1|X)}
 $$
 
+Possiamo vedere la regressione logistica come una regressione lineare applicata non direttamente alla probabilità, ma al logaritmo degli odds. Partendo dalla definizione degli odds, se applichiamo il logaritmo a entrambi i membri otteniamo il **Logit** (o log-odd):
+
+$$\huge\log\left(\frac{P(Y=1\vert{}X)}{1-P(Y=1\vert{}X)}\right) = \beta_0 + \beta_1x_1 + \dots + \beta_nx_n$$
+
+Questo dimostra come il modello utilizzi effettivamente una combinazione lineare dei parametri per modellare il logaritmo degli odds
+
 Stima dei parametri per verosimiglianza:
-Scelgo i parametri in modo da essere il più simili possibili ai valori giusti
+Nella regressione lineare cercavamo di minimizzare la somma dei quadrati dei residui (Metodo dei Minimi Quadrati). Nella regressione logistica questo non è possibile perché il modello prevede probabilità, non valori continui. Utilizziamo invece la **Stima di Massima Verosimiglianza (Maximum Likelihood Estimation - MLE)**.
 
-Nell'ottimizzazione siamo più abituati a massimizzare che minimizzare (Per questo nel caso della stima dei logit consideriamo il negativo della produttoria)
+Per ottimizzare il modello, si trasforma la massimizzazione della verosimiglianza nella _minimizzazione del suo logaritmo negativo_. La funzione di costo risultante prende il nome di **Log-Loss** (o Binary Cross-Entropy):
 
-Non esiste una soluzione con forma chiusa per questo problema a differenza della regressione lineare, dove abbiamo il metodo dei minimi quadrati. Qui abbiamo un metodo iterativo (La discesa del gradiente)
+$$\Large J(\beta) = -\sum_{i=1}^{N} \left[ y^{(i)} \log \sigma(\beta^T x^{(i)}) + (1 - y^{(i)}) \log(1 - \sigma(\beta^T x^{(i)})) \right]$$
 
-Se $\huge e^{\beta_0}=3$ significa che quando tutti gli input sono uguali a 0 la probabilità che $y = 1$ è 3 volte più probabile che $y = 0$
+Caratteristiche dell'ottimizzazione:
 
-$LL_{Null}$ Modello che considera 0 correlazione, dove tutti i parametri sono impostati a 0. Confrontiamo il nostro modello con questo (Prima confrontavamo, nel caso del del regressore lineare, il nostro modello col modello che restituisce sempre la media).
-Qui non spieghiamo la varianza ma la devianza (ovvero l'incertezza dell'outcome). Ci dice quanta incertezza il modello riesce a spiegare
+- Non esiste una soluzione in forma chiusa; si utilizzano metodi iterativi come la **Discesa del Gradiente**.
+
+- La funzione di costo $J(\beta)$ è matematicamente **convessa**. Questo significa che il suo grafico ("Loss Landscape") ha la forma di una singola "ciotola" liscia, senza minimi locali. L'algoritmo di discesa del gradiente ha quindi la garanzia matematica di trovare sempre il singolo minimo globale ottimale.
+
+Poiché il modello è lineare rispetto al logaritmo degli odds, l'interpretazione dei coefficienti richiede di usare la funzione esponenziale:
+
+- **Intercetta ($\beta_0$):** Il valore $e^{\beta_0}$ rappresenta gli odds di base, ovvero gli odds che l'evento $Y=1$ si verifichi quando tutte le variabili indipendenti $X$ sono pari a 0.
+	(Se $\huge e^{\beta_0}=3$ significa che quando tutti gli input sono uguali a 0 la probabilità che $y = 1$ è 3 volte più probabile che $y = 0$)
+
+- **Coefficienti delle variabili ($\beta_i$):** Un incremento di _una singola unità_ nella variabile $x_i$ (mantenendo costanti tutte le altre) corrisponde a un incremento **moltiplicativo** degli odds pari a $e^{\beta_i}$. Ad esempio, se $e^{\beta_1} = 1.86$, un aumento unitario in $x_1$ fa aumentare le probabilità (odds) dell'evento dell'86%
+
+Non possiamo usare il classico $R^2$ della regressione lineare, perché quest'ultimo penalizza i residui al quadrato, cosa che non ha senso quando si valutano previsioni di probabilità (Log-Loss). Si utilizza invece lo **Pseudo $R^2$ (o $R^2$ di McFadden)**, che segue la stessa logica comparativa:
+
+$$\huge R^2_{McFadden} = 1 - \frac{LL_{Model}}{LL_{Null}}$$
+
+- **$LL_{Null}$ (Log-Likelihood Null):** È la log-verosimiglianza di un modello "stupido" o di base (modello _intercept-only_), che ignora tutte le variabili indipendenti e prevede sempre e solo la media o probabilità a priori (es. prevede sempre che il cancro sia maligno al 35% perché quella è la frequenza nel dataset).
+
+- **$\large LL_{Model}$:** È la log-verosimiglianza del nostro modello addestrato.
+
+- **Interpretazione:** Simile all'$R^2$ classico, ci indica quanta devianza (incertezza nell'outcome) il nostro modello è riuscito a spiegare rispetto al modello di base che tira a indovinare la media. Questo valore è utile solo per confrontare modelli di regressione logistica tra loro, e non è matematicamente equivalente all'$R^2$ dei minimi quadrati
+
+Mentre lo Pseudo $R^2$ serve a valutare la bontà di adattamento del modello rispetto alle probabilità (goodness-of-fit), se utilizziamo il regressore logistico con uno scopo puramente predittivo (ovvero per classificare nuovi dati) possiamo valutare le sue performance usando le metriche classiche di classificazione:
+
+- Accuratezza (Accuracy)
+- Precisione (Precision)
+- Richiamo (Recall)
+- F1-score
+- Matrice di confusione (Confusion matrix)
+
+Quando si allena un modello di regressione logistica multipla (ad esempio tramite la libreria *statsmodels* in Python), l'output restituisce i coefficienti stimati per ogni variabile insieme al loro **p-value**. Non tutte le variabili inserite nel modello avranno necessariamente una relazione statisticamente rilevante con la variabile dipendente.
+
+Per ottimizzare il modello si utilizza un processo iterativo chiamato **eliminazione all'indietro** (backward elimination):
+
+1. Si addestra il modello con tutte le variabili.
+2. Si individua la variabile con il p-value più alto (sicuramente se $> 0.05$).
+3. Si elimina quella variabile e si riaddestra il modello.
+4. Si ripete il processo finché tutte le variabili rimaste presentano un p-value accettabile, indicando che sono tutte statisticamente significative.
+
+
+Solo a questo punto ha senso estrarre gli esponenziali dei coefficienti ($e^{\beta_i}$) per interpretare in modo definitivo l'impatto (gli incrementi moltiplicativi sugli odds) di ciascuna variabile sul risultato finale.
 # 05/11/2026 Lecture 10
 
 Tutorato ci sta, figo
