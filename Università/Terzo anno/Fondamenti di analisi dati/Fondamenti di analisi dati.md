@@ -641,6 +641,53 @@ A seconda del tipo di dati (medie, distribuzioni categoriche, correlazioni), si 
 Lezione di laboratorio, vedi il dataset scaricato e il notebook
 
 # 29/10/2026 Lecture 8
+La regressione lineare è uno strumento potente e fondamentale usato per modellare e definire le relazioni fra variabili e fare predizioni su dati nuovi non visti precedentemente. Alla radice la regressione lineare è una relazione lineare fra una variabile dipendente (Quella che voglio predirre) e una o più variabili indipendenti (Quelle che uso per predirre)
+
+Questa tecnica ci permette di predirre, dedurre associazioni e approfondire come i cambiamenti alle variabili indipendenti influenzano la variabile target. In questi appunti per le regressioni verrà usato come esempio un dataset con dati su delle auto chiamato "Auto MPG Dataset", riferirsi ai pdf per vederlo.
+
+I modelli di regressione in generale mirano a studiare la relazione fra 2 variabili, $X$ e $Y$, definendo un modello matematico $f$ tale che:
+$$
+\huge Y=f(X)+\epsilon
+$$
+$\huge\epsilon$ è un termine di errore, una variabile che cattura tutto ciò che non viene mappato dalla funzione deterministica $f$. La funzione $f$ potrebbe non catturare alcuni tipi di valori per varie motivi, di cui i principali:
+- $f$ non è una funzione deterministica accurata del processo. Noi non sappiamo la "vera" $f$ e la stiamo solo stimando, in questo caso $\huge\epsilon$ cattura la differenza fra i valori reali e quelli predetti
+- $Y$ non può essere predetto solo grazie ad $X$, ma sono necessarie anche altre variabili
+- Il problema analizzato ha una stocasticità intrinseca che non può essere modellata nella sua interezza. Ad esempio, volessimo analizzare il rateo di vittoria a poker basandoci sulla competenza del giocatore, sarebbe complicato perché comunque ci sono fattori di casualità esterni come ad esempio il modo in cui è stato mescolato il mazzo
+
+La semplice regressione lineare punta a modellare la relazione lineare fra due variabili $X$ e $Y$. In base al nostro esempio, considereremo $X= horsepower$ e $Y= mpg$.
+Visto che stiamo cercando di modellare la relazione, possiamo immaginare una linea che passa attraverso i dati.
+
+La regressione lineare semplice è definita come:
+$$
+\huge Y\approx \beta_0+\beta_1X
+$$
+Che nel nostro esempio sarebbe:
+$$
+\huge mpg \approx \beta_0+\beta_1horsepower
+$$
+Spesso viene introdotta una variabile di "rumore" per eliminare l'approssimazione, e la formula diventa:
+$$
+\huge Y= \beta_0+\beta_1X+\epsilon
+$$
+Spiegheremo dopo il perché, ma ci aspettiamo che $\huge\epsilon$ sia piccola e distribuita randomicamente.
+
+In base al modello sopra definito, chiameremo:
+- $X$ La variabile indipendente o regressore
+- $Y$ La variabile dipendente o variabile regressa
+- I valori $\beta_0$ o $\beta_1$ sono chiamati coefficienti o parametri
+
+Il modello matematico che abbiamo analizzato ha un'interpretazione geometrica, e per questo tendiamo a stimare dei valori adeguati per $\beta_0$ e $\beta_1$ in modo tale che possano rappresentare bene i nostri dati. Nel caso del nostro esempio, ci aspettiamo un risultato del genere:![[Screenshot 2026-11-07 123042.png]]
+Questa linea viene chiamata linea di regressione
+
+Per poter stimare i coefficienti per un modello ottimale, bisogna prima definire cos'è un modello ottimale. Diremo che un buon modello è uno che riesce a predirre bene la variabile $Y$ a partire dalla variabile $X$.
+
+Prendiamo {$\Large (x_i,y_i)$} come set di osservazioni, e prendiamo $\huge \hat Y_i = \hat\beta_0+\hat\beta_1 x_i$ come modello per l'osservazione $\Large x_i$.
+Per ogni punto $\Large (x_i,y_i)$ definiamo un valore di deviazione come:
+$$
+\huge e_i=y_i-\hat y_i
+$$
+Usiamo il simbolo $\Large e$ per l'errore e chiamiamo questi numeri residui, visto che sono la differenza fra la nostro predizione e il valore effettivo.
+
 
 # 03/11/2026 Lecture 9
 
