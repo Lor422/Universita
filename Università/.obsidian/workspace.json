@@ -6,7 +6,6 @@
       {
         "id": "9f514f86056df8cd",
         "type": "tabs",
-        "dimension": 35.053619302949066,
         "children": [
           {
             "id": "e42c02f089e90ed1",
@@ -20,29 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "Fondamenti di analisi dati"
-            }
-          }
-        ]
-      },
-      {
-        "id": "c0d0d01e0d4bf258",
-        "type": "tabs",
-        "dimension": 64.94638069705094,
-        "children": [
-          {
-            "id": "56b2c0d6b7335c3c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Terzo anno/Fondamenti di analisi dati/Teoria/08_linear_regression.pdf",
-                "page": 5,
-                "left": -4,
-                "top": 486,
-                "zoom": 1.1
-              },
-              "icon": "lucide-file-text",
-              "title": "08_linear_regression"
             }
           }
         ]
@@ -185,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
+                "file": "Terzo anno/Fondamenti di analisi dati/Teoria/08_linear_regression.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -228,10 +204,10 @@
   },
   "active": "e42c02f089e90ed1",
   "lastOpenFiles": [
-    "Secondo anno/Algoritmi/Algoritmi.md",
-    "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
-    "Secondo anno/Algoritmi/Teoria/Algoritmi di Ordinamento.pdf",
     "Terzo anno/Fondamenti di analisi dati/Teoria/08_linear_regression.pdf",
+    "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
+    "Secondo anno/Algoritmi/Algoritmi.md",
+    "Secondo anno/Algoritmi/Teoria/Algoritmi di Ordinamento.pdf",
     "Screenshot/Screenshot 2026-11-07 123042.png",
     "Terzo anno/Machine Learning/Machine Learning.pdf",
     "Terzo anno/Machine Learning/Machine Learning.md",

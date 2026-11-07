@@ -687,8 +687,12 @@ $$
 \huge e_i=y_i-\hat y_i
 $$
 Usiamo il simbolo $\Large e$ per l'errore e chiamiamo questi numeri residui, visto che sono la differenza fra la nostro predizione e il valore effettivo.
+Questi numeri saranno uguali a 0 se la predizione è perfetta, anche se è estremamente improbabile.
 
-
+Come indicatore globale dell'errore per il modello definiamo la somma quadrata dei residui (RSS Residual Sum of Squares):
+$$
+\huge RSS=e_{1}^{2}+e_{2}^{2}+\dots+e_{n}^{2}
+$$
 # 03/11/2026 Lecture 9
 
 Regressione logistica
