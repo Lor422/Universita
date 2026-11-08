@@ -718,6 +718,13 @@ $$
 \huge \hat\beta_0=\overline y-\hat\beta_1\overline x
 $$
 
+I coefficienti hanno un'importante interpretazione statistica, nello specifico:
+- $\large\beta_0$ è il valore di y che otterremmo se x=0, quindi $f(0)$. Questo valore non sempre ha senso
+- $\Large\beta_1$ indica la pendenza della curva (In termini geometrici è il coefficiente m dell'equazione della retta). Questo indica che un piccolo cambiamento in x si riflette in un grande cambiamento in y, più generalmente un cambiamento di 1 unità in x diventa un cambiamento di $\Large\beta_1$ unità in y
+
+Idealmente, con qualsiasi campione riusciamo ad arrivare alla stessa linea di regressione che riassume al meglio possibile l'andamento dei dati, ma in pratica non è cosi, anzi diversi campioni presi dalla stessa popolazione possono portare a linee di regressione diverse.
+![[Screenshot 2026-11-08 110557.png]]
+Possiamo notare dall'immagine che le stime singole delle linee di regressione possono essere inaccurate però la media di queste linee è molto simile alla linea di regressione della popolazione
 # 03/11/2026 Lecture 9
 
 Regressione logistica

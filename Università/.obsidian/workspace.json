@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9f514f86056df8cd",
+        "id": "91ac684bf775edff",
         "type": "tabs",
         "children": [
           {
-            "id": "e42c02f089e90ed1",
+            "id": "6afee76b3561d89e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "id": "91ac684bf775edff",
+        "id": "c249ae17d1bf0590",
         "type": "tabs",
         "children": [
           {
@@ -34,10 +34,10 @@
               "type": "pdf",
               "state": {
                 "file": "Terzo anno/Fondamenti di analisi dati/Teoria/08_linear_regression.pdf",
-                "page": 7,
-                "left": -23,
-                "top": 662,
-                "zoom": 0.6895422004532876
+                "page": 9,
+                "left": -4,
+                "top": 593,
+                "zoom": 1
               },
               "icon": "lucide-file-text",
               "title": "08_linear_regression"
@@ -224,8 +224,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e42c02f089e90ed1",
+  "active": "6afee76b3561d89e",
   "lastOpenFiles": [
+    "Screenshot/Screenshot 2026-11-08 110557.png",
     "Terzo anno/Fondamenti di analisi dati/Teoria/08_linear_regression.pdf",
     "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
     "Secondo anno/Algoritmi/Algoritmi.md",
