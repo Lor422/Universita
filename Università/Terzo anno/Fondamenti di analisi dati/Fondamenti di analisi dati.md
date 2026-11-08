@@ -693,6 +693,31 @@ Come indicatore globale dell'errore per il modello definiamo la somma quadrata d
 $$
 \huge RSS=e_{1}^{2}+e_{2}^{2}+\dots+e_{n}^{2}
 $$
+
+Questo numero sarebbe la somma dei quadrati dei valori dei segmenti tratteggiati nel seguente grafico, basato sul l'esempio di horsepower e mpg:![[Screenshot 2026-11-08 103511.png]]
+Intuitivamente, se minimizziamo questi numeri troviamo la linea che rappresenta al meglio i nostri dati
+
+Possiamo ottenere una stima per $\Large\hat\beta_0$ e $\Large\hat\beta_1$ minimizzando la RSS con un approccio chiamata Ordinary Least Squares (OLS)
+
+Possiamo riscrivere la RSS come una funzione basata sui parametri per stimarli, e viene chiamata funzione di costo o loss function
+$$
+\huge RSS(\beta_0,\beta_1)=\sum_{i=1}^{n}(y_i-\beta_0-\beta_1x_1)^2
+$$
+Il nostro obiettivo è trovare il minimo per tutti i parametri, e può essere fatto con le formule:
+$$
+\huge\frac{\mathfrak{d}RSS(\beta_0,\beta_1)}{\mathfrak{d}\beta_0}=0
+$$
+$$
+\huge\frac{\mathfrak{d}RSS(\beta_0,\beta_1)}{\mathfrak{d}\beta_1}=0
+$$
+Sviluppare le formule ci porta alle conclusioni che:
+$$
+\huge \hat\beta_1=\frac{\sum_{i=1}^{n}(x_i-\overline x)(y_i-\overline y)}{\sum_{i=1}^{n}(x_i-\overline x)}
+$$
+$$
+\huge \hat\beta_0=\overline y-\hat\beta_1\overline x
+$$
+
 # 03/11/2026 Lecture 9
 
 Regressione logistica

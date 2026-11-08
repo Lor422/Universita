@@ -22,6 +22,28 @@
             }
           }
         ]
+      },
+      {
+        "id": "91ac684bf775edff",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ba36934860e18d9",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Terzo anno/Fondamenti di analisi dati/Teoria/08_linear_regression.pdf",
+                "page": 7,
+                "left": -23,
+                "top": 662,
+                "zoom": 0.6895422004532876
+              },
+              "icon": "lucide-file-text",
+              "title": "08_linear_regression"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -207,6 +229,8 @@
     "Terzo anno/Fondamenti di analisi dati/Teoria/08_linear_regression.pdf",
     "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
     "Secondo anno/Algoritmi/Algoritmi.md",
+    "Secondo anno/Algoritmi/Teoria/Heap Binario.pdf",
+    "Screenshot/Screenshot 2026-11-08 103511.png",
     "Secondo anno/Algoritmi/Teoria/Algoritmi di Ordinamento.pdf",
     "Screenshot/Screenshot 2026-11-07 123042.png",
     "Terzo anno/Machine Learning/Machine Learning.pdf",
@@ -229,7 +253,6 @@
     "Terzo anno/Fondamenti di analisi dati/Teoria/lab_03_python_for_data_science.pdf",
     "Terzo anno/Fondamenti di analisi dati/Teoria/lab_02_python_crash_course.pdf",
     "Terzo anno/Fondamenti di analisi dati/Teoria/10_extending_regression.pdf",
-    "Terzo anno/Fondamenti di analisi dati/Teoria/11_causal_analysis.pdf",
     "Screenshot/Screenshot 2026-11-03 152824.png",
     "Screenshot/Screenshot 2026-10-23 173652.png",
     "Screenshot/Screenshot 2026-10-20 172737.png",
@@ -237,7 +260,6 @@
     "Screenshot/Screenshot 2026-10-20 152802.png",
     "Screenshot/Screenshot 2026-10-17 185633.png",
     "Terzo anno/Fondamenti di analisi dati/Screenshot 2026-10-17 185633.png",
-    "Screenshot/Screenshot 2026-10-15 161905.png",
     "Documenti importanti/App da attenzionare.md",
     "Hub.md",
     "Terzo anno/Machine Learning.md",
