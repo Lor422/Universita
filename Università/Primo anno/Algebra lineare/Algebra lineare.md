@@ -24,3 +24,6 @@ Esercizi Dino:
 - [[Esercizi_Algebra_Lineare.pdf]]
 - [[Esercizi_Applicazioni_Lineari.pdf]]
 - [[Esercizi_Spazi_Vettoriali.pdf]]
+
+Informazioni utili:
+- Amico di Dario, è entrato con volto alto e gli ha chiesto tante definizioni e un teorema

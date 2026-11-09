@@ -35,9 +35,9 @@
               "state": {
                 "file": "Terzo anno/Fondamenti di analisi dati/Teoria/08_linear_regression.pdf",
                 "page": 9,
-                "left": -4,
-                "top": 593,
-                "zoom": 1
+                "left": -23,
+                "top": 584,
+                "zoom": 0.6895422004532876
               },
               "icon": "lucide-file-text",
               "title": "08_linear_regression"
@@ -226,9 +226,11 @@
   },
   "active": "6afee76b3561d89e",
   "lastOpenFiles": [
+    "Primo anno/Algebra lineare/Algebra lineare.md",
+    "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
+    "Terzo anno/Machine Learning/lab3-regressione_pol-softmax.pdf",
     "Screenshot/Screenshot 2026-11-08 110557.png",
     "Terzo anno/Fondamenti di analisi dati/Teoria/08_linear_regression.pdf",
-    "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
     "Secondo anno/Algoritmi/Algoritmi.md",
     "Secondo anno/Algoritmi/Teoria/Heap Binario.pdf",
     "Screenshot/Screenshot 2026-11-08 103511.png",
@@ -241,7 +243,6 @@
     "Terzo anno/Terzo anno.md",
     "Primo anno/Architettura degli elaboratori/Architettura degli elaboratori.md",
     "Primo anno/Analisi I/Analisi I.md",
-    "Primo anno/Algebra lineare/Algebra lineare.md",
     "Secondo anno/Sistemi operativi/Sistemi Operativi.md",
     "Secondo anno/Reti di calcolatori/Reti di calcolatori.md",
     "Secondo anno/Reti di calcolatori/Informazioni Utili Reti.md",
@@ -253,14 +254,12 @@
     "Screenshot/Screenshot 2026-11-05 153407.png",
     "Terzo anno/Fondamenti di analisi dati/Teoria/lab_03_python_for_data_science.pdf",
     "Terzo anno/Fondamenti di analisi dati/Teoria/lab_02_python_crash_course.pdf",
-    "Terzo anno/Fondamenti di analisi dati/Teoria/10_extending_regression.pdf",
     "Screenshot/Screenshot 2026-11-03 152824.png",
     "Screenshot/Screenshot 2026-10-23 173652.png",
     "Screenshot/Screenshot 2026-10-20 172737.png",
     "Screenshot/Screenshot 2026-10-20 155606.png",
     "Screenshot/Screenshot 2026-10-20 152802.png",
     "Screenshot/Screenshot 2026-10-17 185633.png",
-    "Terzo anno/Fondamenti di analisi dati/Screenshot 2026-10-17 185633.png",
     "Documenti importanti/App da attenzionare.md",
     "Hub.md",
     "Terzo anno/Machine Learning.md",
