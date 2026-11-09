@@ -4,18 +4,20 @@ Python Tutorial:
 - [[lab_02_python_crash_course.pdf]]
 - [[lab_03_python_for_data_science.pdf]]
 Teoria:
-Prima itinere
-- [[01_key_concepts.pdf]]
-- [[02_describing_visualizing.pdf]]
-- [[03_probability.pdf]]
-- [[04_association.pdf]]
-- [[05_distributions.pdf]]
-- [[06_statistical_inference.pdf]]
-- [[08_linear_regression.pdf]]
-- [[09_logistic_regression.pdf]]
-- [[10_extending_regression.pdf]]
-- [[11_causal_analysis.pdf]]
-Seconda itinere
+File prof, prima itinere
+- [[01_key_concepts.pdf]] 34 slide
+- [[02_describing_visualizing.pdf]] 54 slide
+- [[03_probability.pdf]] 32 slide
+- [[04_association.pdf]] 37 slide
+- [[05_distributions.pdf]] 38 slide
+- [[06_statistical_inference.pdf]] 49 slide
+- [[08_linear_regression.pdf]] 44 slide
+- [[09_logistic_regression.pdf]] 25 slide
+- [[10_extending_regression.pdf]] 16 slide
+- [[11_causal_analysis.pdf]] 38 slide
+Pdf prima itinere uniti:
+- [[Prima Itinere.pdf]]
+File prof, seconda itinere
 ## 06/10/2026 Lecture 1
 
 Dati= Sono una collezione di valori ottenuti rispetto a determinate variabili che descrivono un determinato fenomeno  
