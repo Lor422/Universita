@@ -4,26 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "24b03f6428040e12",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "d61ce2cbb1ebfb6f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Fondamenti di analisi dati"
-            }
-          }
-        ]
-      },
-      {
         "id": "334e78d186aa659c",
         "type": "tabs",
         "children": [
@@ -34,10 +14,10 @@
               "type": "pdf",
               "state": {
                 "file": "Terzo anno/Fondamenti di analisi dati/Teoria/11_causal_analysis.pdf",
-                "page": 8,
-                "left": -23,
-                "top": 33,
-                "zoom": 0.6895422004532876
+                "page": 38,
+                "left": -11,
+                "top": 410,
+                "zoom": 1.4446350305657543
               },
               "icon": "lucide-file-text",
               "title": "11_causal_analysis"
@@ -224,10 +204,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d61ce2cbb1ebfb6f",
+  "active": "21f715b816e116d5",
   "lastOpenFiles": [
-    "Terzo anno/Fondamenti di analisi dati/Teoria/11_causal_analysis.pdf",
     "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
+    "Terzo anno/Fondamenti di analisi dati/Teoria/11_causal_analysis.pdf",
     "Terzo anno/Fondamenti di analisi dati/Prima Itinere.pdf",
     "Terzo anno/Fondamenti di analisi dati/Teoria/10_extending_regression.pdf",
     "Terzo anno/Fondamenti di analisi dati/Teoria/09_logistic_regression.pdf",
