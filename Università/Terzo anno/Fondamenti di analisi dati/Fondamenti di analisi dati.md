@@ -851,3 +851,23 @@ Se il valore di $horsepower\text{~} x\text{~} weight$ è quasi 0 si può toglier
 
 Dall'idea di aggiungere coefficienti di grado superiore per descrivere meglio la curva nasce la regressione polinomiale. Il numero di gradi di una funzione indica quanti flessi è in grado di avere, e quindi teoricamente più è alto il grado più è probabile sia in gradi di mappare un gran numero di funzioni. La presenza di tante variabili però è anche una limitazione in quanto il minimo cambiamento di una condizione del dataset lo cambia totalmente, quindi il modello potrebbe non funzionare più e dovrebbe quindi essere ricalibrato
 
+# 10/11/2026 Lecture 11
+
+Nei box plot metto una rientranza a destra e sinistra detti notch. Sono degli intervalli di confidenza, se si intersecano c'è una correlazione fra i dati
+
+Misurare la causazione:
+
+Ho una variabile T chiamata Treatment, trattamento. Se l'elemento fa parte del gruppo di trattamento, allora T=1
+
+Nel caso degli studenti e la loro performance, T=1 sono quelli che hanno fatto tutorato e sono il gruppo di trattamento, gli altri sono il gruppo di controllo
+
+Y è l'outcome, le performance dello studente in questo caso
+
+I valori potenziali sono i valori che potrei misurare se spostati un dato dal gruppo di controllo a quello di trattamento o viceversa, sono quindi dei valori teorici.
+Sono chiamati anche counter-factual, contro fattuali, vanno cioè contro i fatti e sono puramente ipotetici, rispondo alla domanda "What if"
+
+Se noi calcoliamo grazie ai valori potenzia gli effetti del trattamento individuali per ogni persona, e facciamo la media sulla distribuzione delle osservazioni, otteniamo un valore che ci interessa molto per analizzare la casualità, il valore ATE (ATT è la metà dell'ATE)
+
+Se misura la media dell'outcome di due casi diversi, il risultato sarà un'indicazione di correlazione
+
+Quello che otteniamo dopo l'ATT, è una misura di causalità, che è un fattore di BIAS
