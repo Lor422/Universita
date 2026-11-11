@@ -13,14 +13,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Terzo anno/Fondamenti di analisi dati/Teoria/11_causal_analysis.pdf",
-                "page": 38,
+                "file": "Terzo anno/Fondamenti di analisi dati/Prima Itinere.pdf",
+                "page": 48,
                 "left": -11,
-                "top": 410,
+                "top": 188,
                 "zoom": 1.4446350305657543
               },
               "icon": "lucide-file-text",
-              "title": "11_causal_analysis"
+              "title": "Prima Itinere"
             }
           }
         ]
@@ -206,8 +206,8 @@
   },
   "active": "21f715b816e116d5",
   "lastOpenFiles": [
-    "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
     "Terzo anno/Fondamenti di analisi dati/Teoria/11_causal_analysis.pdf",
+    "Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
     "Terzo anno/Fondamenti di analisi dati/Prima Itinere.pdf",
     "Terzo anno/Fondamenti di analisi dati/Teoria/10_extending_regression.pdf",
     "Terzo anno/Fondamenti di analisi dati/Teoria/09_logistic_regression.pdf",
