@@ -1,6 +1,7 @@
-Libro:	[[Introduction_to_Machine_Learning_Fourth_Edition_Ethem_Alpaydin_z.pdf]]
+Libro:	
+- [[Introduction_to_Machine_Learning_Fourth_Edition_Ethem_Alpaydin_z.pdf]]
 Slides:
-	[[Machine Learning.pdf]]
+- [[Machine Learning.pdf]]
 ## 05/10/2026
 
 18 lezioni, 9 teoria 9 lab, c’è un esame e un progetto da fare
