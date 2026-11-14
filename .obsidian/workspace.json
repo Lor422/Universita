@@ -4,21 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "25b1bb5061b6c391",
+        "id": "c5a0df52241ca6bb",
         "type": "tabs",
         "children": [
           {
-            "id": "be8f3db5f3b7a1bd",
+            "id": "9a752283950b1cac",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Università/Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
-                "mode": "source",
-                "source": false
+                "file": "Università/Terzo anno/Fondamenti di analisi dati/Prima Itinere.pdf",
+                "page": 1,
+                "left": -8,
+                "top": 786,
+                "zoom": 1.9211376846267099
               },
-              "icon": "lucide-file",
-              "title": "Fondamenti di analisi dati"
+              "icon": "lucide-file-text",
+              "title": "Prima Itinere"
             }
           }
         ]
@@ -83,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c98c9b744047296c",
@@ -199,13 +202,24 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "5053bebc3d142969",
+  "active": "9a752283950b1cac",
   "lastOpenFiles": [
-    "Università/Terzo anno/Fondamenti di analisi dati/Teoria/08_linear_regression.pdf",
-    "Università/Terzo anno/Fondamenti di analisi dati/Laboratorio/sleep-health.ipynb",
-    "Università/Terzo anno/Fondamenti di analisi dati/Laboratorio",
-    "Università/Terzo anno/Fondamenti di analisi dati/Teoria/06_statistical_inference.pdf",
     "Università/Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
+    "Università/Terzo anno/Machine Learning/lab3-regressione_pol-softmax.pdf",
+    "Università/Terzo anno/Machine Learning/lab2-regressione-logistica.pdf",
+    "Università/Terzo anno/Machine Learning/lab1-regressione-lineare.pdf",
+    "Università/Terzo anno/Machine Learning/Lezione 6 (26 ottobre 2026).pdf",
+    "Università/Terzo anno/Fondamenti di analisi dati/Teoria/11_causal_analysis.pdf",
+    "Università/Terzo anno/Fondamenti di analisi dati/Teoria/10_extending_regression.pdf",
+    "Università/Terzo anno/Fondamenti di analisi dati/Teoria/09_logistic_regression.pdf",
+    "Università/Terzo anno/Fondamenti di analisi dati/Prima Itinere.pdf",
+    "Università/Secondo anno/Reti di calcolatori/Teoria/slides_computer_networks_pub.pdf",
+    "Università/Secondo anno/Reti di calcolatori/Teoria/Reti_di_calcolatori_e_Internet_Un_approccio_top_down_8th_J_F_Kurose.pdf",
+    "Università/Screenshot/Screenshot 2026-11-08 110557.png",
+    "Università/Screenshot/Screenshot 2026-11-08 103511.png",
+    "Università/Screenshot/Screenshot 2026-11-07 123042.png",
+    "Università/Screenshot/Screenshot 2026-11-05 153407.png",
+    "Università/Screenshot/Screenshot 2026-11-03 152824.png",
     "README.md",
     "Università/Secondo anno/Algoritmi/Algoritmi.md",
     "Università/Hub.md"
