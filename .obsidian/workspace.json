@@ -4,21 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "005144c90f33078d",
+        "id": "c5a0df52241ca6bb",
         "type": "tabs",
         "children": [
           {
-            "id": "2f0b91df43cc6fe6",
+            "id": "9a752283950b1cac",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Università/Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
-                "mode": "source",
-                "source": false
+                "file": "Università/Terzo anno/Fondamenti di analisi dati/Prima Itinere.pdf",
+                "page": 1,
+                "left": -8,
+                "top": 786,
+                "zoom": 1.9211376846267099
               },
-              "icon": "lucide-file",
-              "title": "Fondamenti di analisi dati"
+              "icon": "lucide-file-text",
+              "title": "Prima Itinere"
             }
           }
         ]
@@ -83,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c98c9b744047296c",
@@ -199,8 +202,9 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2f0b91df43cc6fe6",
+  "active": "9a752283950b1cac",
   "lastOpenFiles": [
+    "Università/Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
     "Università/Terzo anno/Machine Learning/lab3-regressione_pol-softmax.pdf",
     "Università/Terzo anno/Machine Learning/lab2-regressione-logistica.pdf",
     "Università/Terzo anno/Machine Learning/lab1-regressione-lineare.pdf",
@@ -211,13 +215,11 @@
     "Università/Terzo anno/Fondamenti di analisi dati/Prima Itinere.pdf",
     "Università/Secondo anno/Reti di calcolatori/Teoria/slides_computer_networks_pub.pdf",
     "Università/Secondo anno/Reti di calcolatori/Teoria/Reti_di_calcolatori_e_Internet_Un_approccio_top_down_8th_J_F_Kurose.pdf",
-    "Università/Secondo anno/Algoritmi/Teoria/Heap Binario.pdf",
     "Università/Screenshot/Screenshot 2026-11-08 110557.png",
     "Università/Screenshot/Screenshot 2026-11-08 103511.png",
     "Università/Screenshot/Screenshot 2026-11-07 123042.png",
     "Università/Screenshot/Screenshot 2026-11-05 153407.png",
     "Università/Screenshot/Screenshot 2026-11-03 152824.png",
-    "Università/Terzo anno/Fondamenti di analisi dati/Fondamenti di analisi dati.md",
     "README.md",
     "Università/Secondo anno/Algoritmi/Algoritmi.md",
     "Università/Hub.md"
