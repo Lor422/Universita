@@ -3,6 +3,8 @@ Link sito Furnari:
 Python Tutorial:
 - [[lab_02_python_crash_course.pdf]]
 - [[lab_03_python_for_data_science.pdf]]
+Istruzioni per il progetto:
+- [[Istruzioni parte 1 progetto]]
 Teoria:
 File prof, prima itinere
 - [[01_key_concepts.pdf]] 34 slide
