@@ -20,6 +20,8 @@ File prof, prima itinere
 Pdf prima itinere uniti:
 - [[Prima Itinere.pdf]]
 File prof, seconda itinere
+- [[Lecture 13 - Storytelling with Data.pdf]]
+- [[13_predictive_analysis.pdf]]
 ## 06/10/2026 Lecture 1
 
 Dati= Sono una collezione di valori ottenuti rispetto a determinate variabili che descrivono un determinato fenomeno  
