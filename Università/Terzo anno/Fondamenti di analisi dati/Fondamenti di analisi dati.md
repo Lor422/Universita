@@ -17,8 +17,11 @@ File prof, prima itinere
 - [[09_logistic_regression.pdf]] 25 slide
 - [[10_extending_regression.pdf]] 16 slide
 - [[11_causal_analysis.pdf]] 38 slide
+Ho fatto 10/15, la prima itinere vale il 40% del voto
+
 Pdf prima itinere uniti:
 - [[Prima Itinere.pdf]]
+
 File prof, seconda itinere
 - [[Lecture 13 - Storytelling with Data.pdf]]
 - [[13_predictive_analysis.pdf]]
