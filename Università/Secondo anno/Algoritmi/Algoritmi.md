@@ -7,6 +7,7 @@ Teoria:
 - [[Algoritmi di Ordinamento.pdf]]
 - [[Heap Binario.pdf]]
 - [[Alberi Rosso Neri.pdf]]
+- [[Programmazione Dinamica.pdf]]
 Esercizi:
 - [[Dispensa_Esercizi_Ricorsione_2026.pdf]]
 Dispensa Andrea Ghirlando, per la teoria basta questo:
