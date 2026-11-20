@@ -3,6 +3,8 @@ Link sito Furnari:
 Python Tutorial:
 - [[lab_02_python_crash_course.pdf]]
 - [[lab_03_python_for_data_science.pdf]]
+Istruzioni per il progetto:
+- [[Istruzioni parte 1 progetto]]
 Teoria:
 File prof, prima itinere
 - [[01_key_concepts.pdf]] 34 slide
@@ -15,9 +17,14 @@ File prof, prima itinere
 - [[09_logistic_regression.pdf]] 25 slide
 - [[10_extending_regression.pdf]] 16 slide
 - [[11_causal_analysis.pdf]] 38 slide
+Ho fatto 10/15, la prima itinere vale il 40% del voto
+
 Pdf prima itinere uniti:
 - [[Prima Itinere.pdf]]
+
 File prof, seconda itinere
+- [[Lecture 13 - Storytelling with Data.pdf]]
+- [[13_predictive_analysis.pdf]]
 ## 06/10/2026 Lecture 1
 
 Dati= Sono una collezione di valori ottenuti rispetto a determinate variabili che descrivono un determinato fenomeno  
