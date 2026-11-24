@@ -25,6 +25,7 @@ Pdf prima itinere uniti:
 File prof, seconda itinere
 - [[Lecture 13 - Storytelling with Data.pdf]]
 - [[13_predictive_analysis.pdf]]
+- [[14_regression_for_prediction.pdf]]
 ## 06/10/2026 Lecture 1
 
 Dati= Sono una collezione di valori ottenuti rispetto a determinate variabili che descrivono un determinato fenomeno  
@@ -878,3 +879,9 @@ Se noi calcoliamo grazie ai valori potenzia gli effetti del trattamento individu
 Se misura la media dell'outcome di due casi diversi, il risultato sarà un'indicazione di correlazione
 
 Quello che otteniamo dopo l'ATT, è una misura di causalità, che è un fattore di BIAS
+
+# 12/11/2026 Storytelling with data
+
+# 17/11/2026 Lecture 13
+
+# 24/11/2026 Lecture 14
