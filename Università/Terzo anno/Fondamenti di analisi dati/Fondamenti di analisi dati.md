@@ -26,6 +26,7 @@ File prof, seconda itinere
 - [[Lecture 13 - Storytelling with Data.pdf]]
 - [[13_predictive_analysis.pdf]]
 - [[14_regression_for_prediction.pdf]]
+- [[15_classification.pdf]]
 ## 06/10/2026 Lecture 1
 
 Dati= Sono una collezione di valori ottenuti rispetto a determinate variabili che descrivono un determinato fenomeno  
@@ -885,3 +886,5 @@ Quello che otteniamo dopo l'ATT, è una misura di causalità, che è un fattore 
 # 17/11/2026 Lecture 13
 
 # 24/11/2026 Lecture 14
+
+# 26/11/2026 Lecture 15
