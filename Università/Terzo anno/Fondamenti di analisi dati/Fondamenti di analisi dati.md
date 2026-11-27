@@ -895,8 +895,8 @@ Quello che otteniamo dopo l'ATT, è una misura di causalità, che è un fattore 
 
 # 24/11/2026 Lecture 14
 
-# 26/11/2026 Lecture 15
+# 26/11/2026 Lecture 15 parte 1
 
-# 1/12/2026
+# 1/12/2026 Lecture 15 parte 2
 
 # 3/12/2026
