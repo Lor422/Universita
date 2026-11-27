@@ -20,13 +20,21 @@ File prof, prima itinere
 Ho fatto 10/15, la prima itinere vale il 40% del voto
 
 Pdf prima itinere uniti:
-- [[Prima Itinere.pdf]]
+- [[Prima Itinere.pdf]] 367 slide
 
 File prof, seconda itinere
-- [[Lecture 13 - Storytelling with Data.pdf]]
-- [[13_predictive_analysis.pdf]]
-- [[14_regression_for_prediction.pdf]]
-- [[15_classification.pdf]]
+- [[Lecture 13 - Storytelling with Data.pdf]] 57 slide
+- [[13_predictive_analysis.pdf]] 30 slide
+- [[14_regression_for_prediction.pdf]] 33 slide
+- [[15_classification.pdf]] 71 slide
+- [[16_generative_classifiers.pdf]] 20 slide
+- [[17_data_representation.pdf]] 36 slide
+- [[18_clustering.pdf]] 43 slide
+- [[19_density_estimation.pdf]] 27 slide
+- [[20_pca.pdf]] 35 slide
+
+Pdf seconda itinere uniti:
+- [[Seconda Itinere.pdf]] 352 slide
 ## 06/10/2026 Lecture 1
 
 Dati= Sono una collezione di valori ottenuti rispetto a determinate variabili che descrivono un determinato fenomeno  
